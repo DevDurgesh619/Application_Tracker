@@ -324,7 +324,10 @@ function SatPanel({ sat }) {
     <div>
       <div className="mb-4 flex items-end gap-6">
         <div>
-          <div className="label">Mehek's score</div>
+          <div className="label flex items-center gap-1.5">
+            Mehek's score
+            {sat.estimated && <span className="rounded bg-amber-100 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wide text-amber-700">Est.</span>}
+          </div>
           <div className="text-2xl font-bold text-ink-900">{sat.yourScore}</div>
         </div>
         <div>
@@ -350,6 +353,12 @@ function SatPanel({ sat }) {
       <div className="mt-1 flex justify-between text-[10px] font-medium text-ink-400">
         <span>{lo}</span><span>1300</span><span>1600</span>
       </div>
+      {sat.estimated && (
+        <p className="mt-3 flex items-start gap-1.5 rounded-lg bg-amber-50 px-3 py-2 text-xs text-amber-700">
+          <AlertTriangle size={13} className="mt-0.5 shrink-0" />
+          Score is an <strong>estimate</strong> (~{sat.yourScore}) — official SAT result pending. Gaps recalculate automatically once the real score is entered.
+        </p>
+      )}
       {sat.note && (
         <p className="mt-3 rounded-lg bg-ink-50 px-3 py-2 text-xs text-ink-500">{sat.note}</p>
       )}

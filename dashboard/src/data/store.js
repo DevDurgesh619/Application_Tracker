@@ -6,7 +6,13 @@ import master from './master.json'
  *  per-sheet data (cost / SAT / essays / interviews / links) onto it.
  * ------------------------------------------------------------------ */
 
-export const student = master.student
+/* Mehek's SAT score — single source of truth.
+ * Currently an ESTIMATE (official score pending); change this one number
+ * when the real score is in and every gap/status across the app updates. */
+export const SAT_SCORE = 1540
+export const SAT_ESTIMATED = true
+
+export const student = { ...master.student, satScore: SAT_SCORE, satEstimated: SAT_ESTIMATED }
 
 /* ---- tier config ---- */
 export const TIERS = {
@@ -65,17 +71,7 @@ function normalize(u) {
       bestCase: num(cost['Best-Case Annual Cost (₹L)']),
       fourYearBest: num(cost['4-Year Best-Case (₹L)']),
     },
-    sat: sat
-      ? {
-          p25: num(sat['SAT 25th %ile']),
-          p75: num(sat['SAT 75th %ile']),
-          yourScore: num(sat['Your Score']),
-          gap25: num(sat['Gap (25th)']),
-          gap75: num(sat['Gap (75th)']),
-          status: sat.Status,
-          note: sat.Note,
-        }
-      : null,
+    sat: sat ? buildSat(sat) : null,
   }
 }
 
@@ -83,6 +79,21 @@ function num(v) {
   if (v === null || v === undefined || v === '' || v === '—') return null
   const n = typeof v === 'number' ? v : parseFloat(String(v).replace(/[^0-9.\-]/g, ''))
   return Number.isFinite(n) ? n : null
+}
+
+/* recompute SAT gaps + status from the central SAT_SCORE so everything
+ * stays in sync if the score changes (the sheet's frozen values are ignored) */
+function buildSat(sat) {
+  const p25 = num(sat['SAT 25th %ile'])
+  const p75 = num(sat['SAT 75th %ile'])
+  const yourScore = SAT_SCORE
+  const gap25 = p25 != null ? yourScore - p25 : null
+  const gap75 = p75 != null ? yourScore - p75 : null
+  let status = null
+  if (p25 != null && p75 != null) {
+    status = yourScore > p75 ? '🟢 Above 75th' : yourScore >= p25 ? '🟡 In Range' : '🔴 Below 25th'
+  }
+  return { p25, p75, yourScore, gap25, gap75, status, estimated: SAT_ESTIMATED, note: sat.Note }
 }
 
 export const universities = master.universities
