@@ -1,0 +1,2841 @@
+{
+  "student": {
+    "name": "Mehek Jain",
+    "classOf": 2027,
+    "profile": "IB 40-43 Predicted · STEM-Economics",
+    "schools": 21
+  },
+  "universities": [
+    {
+      "#": 1,
+      "Tier": "Reach",
+      "University": "Yale University",
+      "Country": "USA",
+      "Programme": "Economics & Math (BA)",
+      "Key Deadline": "Nov 1, 2026 (REA)\nJan 2, 2027 (RD)",
+      "Application Type": "REA – cannot apply ED/EA elsewhere",
+      "Entry Requirements": "IB 40-44 | SAT 1550+",
+      "Scholarship / Aid": "Need-blind for intl | 100% need met | No loans",
+      "Tuition/yr": "~₹61L/yr ($72,500)",
+      "Tests": "SAT Required",
+      "Status": "Not Started",
+      "Priority": "High",
+      "Aid Policy": "Need-Blind ✅",
+      "App Platform": "Common App",
+      "STEM OPT": "Yes ✓",
+      "Interview?": "No",
+      "Days Until Deadline": "141 days",
+      "App Completion %": "Not Started",
+      "Decision Date": "Dec 19, 2026 (REA)\nMar 2027 (RD)",
+      "Schol. Deadline": "Same as app",
+      "Notes": "REA – non-binding but no ED/EA elsewhere",
+      "id": "yale-university",
+      "cost": {
+        "#": 1,
+        "University": "Yale University",
+        "Tier": "Reach",
+        "Country": "USA",
+        "Currency": "USD",
+        "Tuition/yr (₹L)": 60.9,
+        "Living Costs/yr (₹L)": 15.1,
+        "Other Fees/yr (₹L)": 3.4,
+        "TOTAL Annual Cost (₹L)": 79.4,
+        "4-Year Total (₹L)": 317.6,
+        "Application Fee (₹)": 7140,
+        "Best-Case Annual Cost (₹L)": 0,
+        "4-Year Best-Case (₹L)": 0,
+        "Scholarship / Aid Notes": "Need-BLIND for intl | 100% demonstrated need met | No loans policy",
+        "Aid Policy": "Need-Blind ✅"
+      },
+      "sat": {
+        "#": 1,
+        "University": "Yale University",
+        "Tier": "Reach",
+        "SAT 25th %ile": 1500,
+        "SAT 75th %ile": 1580,
+        "Your Score": 1450,
+        "Gap (25th)": -50,
+        "Gap (75th)": -130,
+        "Status": "🔴 Below 25th",
+        "Note": "Test-required ✅"
+      },
+      "links": {
+        "apply": "https://admissions.yale.edu/",
+        "course": "https://economics.yale.edu/undergraduate/courses/course-requirements-econ-math",
+        "aid": "https://student-financial-services.yale.edu/undergraduate-students",
+        "note": "Common App. Decision mid-Dec for REA."
+      },
+      "essays": [
+        {
+          "University": "Yale University",
+          "Tier": "Reach",
+          "Essay / Prompt": "Why Yale? (125 words)",
+          "Word Limit": "125",
+          "Key Themes": "Specific Yale Math-Econ faculty, residential college system, research culture",
+          "Draft Status": "Not Started",
+          "Notes & Links": "https://admissions.yale.edu/essay-topics"
+        },
+        {
+          "University": "Yale University",
+          "Tier": "Reach",
+          "Essay / Prompt": "Long Essay – 1 of 3 prompts (400 words)",
+          "Word Limit": "400",
+          "Key Themes": "Learnable origin OR Emily Dickinson poetry OR Erudite Summit public policy",
+          "Draft Status": "Not Started",
+          "Notes & Links": "Choose ONE. Show depth, not breadth."
+        },
+        {
+          "University": "Yale University",
+          "Tier": "Reach",
+          "Essay / Prompt": "Short Answers × 5 (50-200 words each)",
+          "Word Limit": "50–200 ea",
+          "Key Themes": "STEM-Econ curiosity, Learnable community, books/writing, residential college",
+          "Draft Status": "Not Started",
+          "Notes & Links": "Most short answers of any school – budget 2-3 weeks."
+        }
+      ],
+      "interviews": [
+        {
+          "University": "Yale University",
+          "Date": "TBD",
+          "Format": "Alumni Interview",
+          "Prep Status": null,
+          "Outcome": null,
+          "Interviewer": null,
+          "Notes": "Optional but highly recommended"
+        }
+      ]
+    },
+    {
+      "#": 2,
+      "Tier": "Reach",
+      "University": "UPenn – Wharton",
+      "Country": "USA",
+      "Programme": "Economics BS — STEM only via a STEM concentration",
+      "Key Deadline": "Nov 1, 2026 (ED I – binding)\nJan 5, 2027 (RD)",
+      "Application Type": "ED I binding / RD via Common App",
+      "Entry Requirements": "IB 41-44 | SAT 1530+",
+      "Scholarship / Aid": "Need-AWARE for intl | Very limited aid",
+      "Tuition/yr": "~₹55L/yr ($65,670)",
+      "Tests": "SAT Required",
+      "Status": "Not Started",
+      "Priority": "High",
+      "Aid Policy": "Need-Aware ⚠️",
+      "App Platform": "Common App",
+      "STEM OPT": "Yes ✓",
+      "Interview?": "No",
+      "Days Until Deadline": "141 days",
+      "App Completion %": "Not Started",
+      "Decision Date": "Dec 2026 (ED)\nMar 2027 (RD)",
+      "Schol. Deadline": "Same as app",
+      "Notes": "ED binding. Wharton-specific supplement.",
+      "id": "upenn-wharton",
+      "cost": {
+        "#": 2,
+        "University": "UPenn – Wharton",
+        "Tier": "Reach",
+        "Country": "USA",
+        "Currency": "USD",
+        "Tuition/yr (₹L)": 55.2,
+        "Living Costs/yr (₹L)": 18.5,
+        "Other Fees/yr (₹L)": 3.4,
+        "TOTAL Annual Cost (₹L)": 77.1,
+        "4-Year Total (₹L)": 308.4,
+        "Application Fee (₹)": 7140,
+        "Best-Case Annual Cost (₹L)": "—",
+        "4-Year Best-Case (₹L)": "—",
+        "Scholarship / Aid Notes": "Need-AWARE for intl | Very limited institutional aid | No merit scholarships",
+        "Aid Policy": "Need-Aware ⚠️"
+      },
+      "sat": {
+        "#": 2,
+        "University": "UPenn – Wharton",
+        "Tier": "Reach",
+        "SAT 25th %ile": 1510,
+        "SAT 75th %ile": 1570,
+        "Your Score": 1450,
+        "Gap (25th)": -60,
+        "Gap (75th)": -120,
+        "Status": "🔴 Below 25th",
+        "Note": "Test-required ✅"
+      },
+      "links": {
+        "apply": "https://admissions.upenn.edu/",
+        "course": "https://catalog.upenn.edu/undergraduate/wharton/curriculum/",
+        "aid": "https://admissions.upenn.edu/affording-penn/international-aid",
+        "note": "Apply DIRECTLY to Wharton – not Penn A&S."
+      },
+      "essays": [
+        {
+          "University": "UPenn – Wharton",
+          "Tier": "Reach",
+          "Essay / Prompt": "Why Wharton? (500 words)",
+          "Word Limit": "500",
+          "Key Themes": "Wharton BS Econ + STEM, specific concentrations, Learnable scale-up vision",
+          "Draft Status": "Not Started",
+          "Notes & Links": "https://undergrad.wharton.upenn.edu/wharton-experience/admissions/"
+        }
+      ],
+      "interviews": []
+    },
+    {
+      "#": 3,
+      "Tier": "Reach",
+      "University": "UCLA",
+      "Country": "USA",
+      "Programme": "Economics BA / Business Econ BA – STEM ✓",
+      "Key Deadline": "Nov 30, 2026\n(1 UC App covers all 6 UCs)",
+      "Application Type": "UC Application – shared with 5 other UCs",
+      "Entry Requirements": "IB 38-42 | SAT Optional",
+      "Scholarship / Aid": "Very limited intl aid",
+      "Tuition/yr": "~₹46L/yr (nonres tuition+fees)",
+      "Tests": "Test-Blind (SAT NOT used)",
+      "Status": "Not Started",
+      "Priority": "High",
+      "Aid Policy": "No Aid (Intl) ❌",
+      "App Platform": "UC Application",
+      "STEM OPT": "Yes ✓",
+      "Interview?": "No",
+      "Days Until Deadline": "170 days",
+      "App Completion %": "Not Started",
+      "Decision Date": "Late Mar 2027",
+      "Schol. Deadline": "N/A",
+      "Notes": "1 UC app covers all 6 campuses",
+      "id": "ucla",
+      "cost": {
+        "#": 3,
+        "University": "UCLA",
+        "Tier": "Reach",
+        "Country": "USA",
+        "Currency": "USD",
+        "Tuition/yr (₹L)": 46.1,
+        "Living Costs/yr (₹L)": 21,
+        "Other Fees/yr (₹L)": 2.5,
+        "TOTAL Annual Cost (₹L)": 69.6,
+        "4-Year Total (₹L)": 278.4,
+        "Application Fee (₹)": 5880,
+        "Best-Case Annual Cost (₹L)": "—",
+        "4-Year Best-Case (₹L)": "—",
+        "Scholarship / Aid Notes": "Very limited institutional aid for intl students | Explore external scholarships",
+        "Aid Policy": "No Aid (Intl) ❌"
+      },
+      "sat": {
+        "#": 5,
+        "University": "UCLA",
+        "Tier": "Realistic Reach",
+        "SAT 25th %ile": 1320,
+        "SAT 75th %ile": 1530,
+        "Your Score": 1450,
+        "Gap (25th)": 130,
+        "Gap (75th)": -80,
+        "Status": "🟡 In Range",
+        "Note": "⚠️ UC is TEST-BLIND — SAT not used in admission (enrolled-student data only)"
+      },
+      "links": {
+        "apply": "https://apply.universityofcalifornia.edu/",
+        "course": "https://economics.ucla.edu/undergraduate/",
+        "aid": "https://financialaid.ucla.edu/types-of-aid",
+        "note": "STEM certified Fall 2019. Same app for Berkeley, UCSD, UCSB, Davis, Irvine."
+      },
+      "essays": [],
+      "interviews": []
+    },
+    {
+      "#": 4,
+      "Tier": "Reach",
+      "University": "Duke University",
+      "Country": "USA",
+      "Programme": "Economics BS – STEM ✓",
+      "Key Deadline": "Nov 3, 2026 (ED – binding)\nJan 5, 2027 (RD)",
+      "Application Type": "ED I binding / RD via Common App",
+      "Entry Requirements": "IB 41-44 | SAT 1510+",
+      "Scholarship / Aid": "Need-aware for intl | Aid can affect admission",
+      "Tuition/yr": "~₹62L/yr ($73,740)",
+      "Tests": "Test-Optional",
+      "Status": "Not Started",
+      "Priority": "High",
+      "Aid Policy": "Need-Aware ⚠️",
+      "App Platform": "Common App",
+      "STEM OPT": "Yes ✓",
+      "Interview?": "No",
+      "Days Until Deadline": "141 days",
+      "App Completion %": "Not Started",
+      "Decision Date": "Dec 2026 (ED)\nMar 2027 (RD)",
+      "Schol. Deadline": "Same as app",
+      "Notes": "ED binding. Very interview-friendly.",
+      "id": "duke-university",
+      "cost": {
+        "#": 4,
+        "University": "Duke University",
+        "Tier": "Reach",
+        "Country": "USA",
+        "Currency": "USD",
+        "Tuition/yr (₹L)": 61.9,
+        "Living Costs/yr (₹L)": 16.8,
+        "Other Fees/yr (₹L)": 3.4,
+        "TOTAL Annual Cost (₹L)": 82.1,
+        "4-Year Total (₹L)": 328.4,
+        "Application Fee (₹)": 7140,
+        "Best-Case Annual Cost (₹L)": "—",
+        "4-Year Best-Case (₹L)": "—",
+        "Scholarship / Aid Notes": "Intl Tuition Grant rate S$21,400/yr (vs non-subsidised S$36,650) | 3-yr SG work bond | NUS Global Merit Scholarship | ❌ ASEAN N/A (India)",
+        "Aid Policy": "Need-Aware ⚠️"
+      },
+      "sat": {
+        "#": 3,
+        "University": "Duke University",
+        "Tier": "Reach",
+        "SAT 25th %ile": 1520,
+        "SAT 75th %ile": 1570,
+        "Your Score": 1450,
+        "Gap (25th)": -70,
+        "Gap (75th)": -120,
+        "Status": "🔴 Below 25th",
+        "Note": "Test-OPTIONAL (Duke)"
+      },
+      "links": {
+        "apply": "https://admissions.duke.edu/apply/",
+        "course": "https://econ.duke.edu/undergraduate/bs-economics",
+        "aid": "https://financialaid.duke.edu/",
+        "note": "Financial Economics concentration available."
+      },
+      "essays": [
+        {
+          "University": "Duke University",
+          "Tier": "Reach",
+          "Essay / Prompt": "Why Duke? (250 words)",
+          "Word Limit": "250",
+          "Key Themes": "Duke Econ BS curriculum, Financial Econ concentration, Bass Connections research",
+          "Draft Status": "Not Started",
+          "Notes & Links": "https://admissions.duke.edu/apply/"
+        }
+      ],
+      "interviews": [
+        {
+          "University": "Duke University",
+          "Date": "TBD",
+          "Format": "Alumni Interview",
+          "Prep Status": null,
+          "Outcome": null,
+          "Interviewer": null,
+          "Notes": "Optional – often offered"
+        }
+      ]
+    },
+    {
+      "#": 5,
+      "Tier": "Reach",
+      "University": "Cornell – Dyson",
+      "Country": "USA",
+      "Programme": "Applied Econ & Management BS – STEM ✓",
+      "Key Deadline": "Nov 1, 2026 (ED I – binding)\nJan 2, 2027 (RD)",
+      "Application Type": "ED I binding / RD via Common App\n⚠️ Apply to Dyson (CALS), not A&S",
+      "Entry Requirements": "IB 40-44 | SAT 1500+",
+      "Scholarship / Aid": "Need-aware for intl | Some merit aid via CALS",
+      "Tuition/yr": "~₹62L/yr ($73,946 endowed)",
+      "Tests": "SAT Required",
+      "Status": "Not Started",
+      "Priority": "High",
+      "Aid Policy": "Need-Aware ⚠️",
+      "App Platform": "Common App",
+      "STEM OPT": "Yes ✓",
+      "Interview?": "No",
+      "Days Until Deadline": "141 days",
+      "App Completion %": "Not Started",
+      "Decision Date": "Dec 2026 (ED)\nMar 2027 (RD)",
+      "Schol. Deadline": "Same as app",
+      "Notes": "ED binding. Must select Dyson on app.  ⚠️ CONFIRM: exact Dyson AEM STEM CIP code & SAT range not stated on an official Cornell page.",
+      "id": "cornell-dyson",
+      "cost": {
+        "#": 5,
+        "University": "Cornell – Dyson",
+        "Tier": "Reach",
+        "Country": "USA",
+        "Currency": "USD",
+        "Tuition/yr (₹L)": 62.1,
+        "Living Costs/yr (₹L)": 16.8,
+        "Other Fees/yr (₹L)": 3.4,
+        "TOTAL Annual Cost (₹L)": 82.3,
+        "4-Year Total (₹L)": 329.2,
+        "Application Fee (₹)": 6720,
+        "Best-Case Annual Cost (₹L)": "—",
+        "4-Year Best-Case (₹L)": "—",
+        "Scholarship / Aid Notes": "Need-aware for intl | Some merit aid via CALS",
+        "Aid Policy": "Need-Aware ⚠️"
+      },
+      "sat": {
+        "#": 4,
+        "University": "Cornell – Dyson",
+        "Tier": "Realistic Reach",
+        "SAT 25th %ile": 1450,
+        "SAT 75th %ile": 1560,
+        "Your Score": 1450,
+        "Gap (25th)": 0,
+        "Gap (75th)": -110,
+        "Status": "🟡 In Range",
+        "Note": "⚠️ Range unverified — Cornell publishes limited score data"
+      },
+      "links": {
+        "apply": "https://dyson.cornell.edu/programs/undergraduate/how-to-apply/application-requirements/",
+        "course": "https://dyson.cornell.edu/programs/undergraduate/academics/degree-requirements/",
+        "aid": "https://finaid.cornell.edu/",
+        "note": "⚠️ Must apply directly to Dyson (CALS) – not Cornell Arts & Sciences."
+      },
+      "essays": [
+        {
+          "University": "Cornell – Dyson",
+          "Tier": "Reach",
+          "Essay / Prompt": "Why Dyson? (650 words)",
+          "Word Limit": "650",
+          "Key Themes": "Dyson AEM econ+management+STEM blend, Learnable as business case",
+          "Draft Status": "Not Started",
+          "Notes & Links": "https://dyson.cornell.edu/programs/undergraduate/how-to-apply/application-requirements/"
+        }
+      ],
+      "interviews": [
+        {
+          "University": "Cornell – Dyson",
+          "Date": "TBD",
+          "Format": "Alumni Interview",
+          "Prep Status": null,
+          "Outcome": null,
+          "Interviewer": null,
+          "Notes": "Optional – request via interviewer DB"
+        }
+      ]
+    },
+    {
+      "#": 6,
+      "Tier": "Reach",
+      "University": "NUS – Data Science & Econ",
+      "Country": "Singapore",
+      "Programme": "Data Science & Economics BSc – STEM ✓",
+      "Key Deadline": "Opens ~Dec 2026, closes ~23 Feb 2027\n(NUS OAM intl)",
+      "Application Type": "Direct intl application",
+      "Entry Requirements": "IB 38-42 | HL Math AA",
+      "Scholarship / Aid": "Tuition Grant (intl rate, 3-yr SG bond) | NUS Global Merit / Sci&Tech Scholarship | ❌ ASEAN N/A (India not in ASEAN)",
+      "Tuition/yr": "~₹13.5L/yr (intl Grant rate S$21,400)",
+      "Tests": "SAT Optional",
+      "Status": "Not Started",
+      "Priority": "High",
+      "Aid Policy": "Tuition Grant + Merit 🇸🇬",
+      "App Platform": "Direct – NUS OAM",
+      "STEM OPT": "Yes ✓",
+      "Interview?": "No",
+      "Days Until Deadline": "261 days",
+      "App Completion %": "Not Started",
+      "Decision Date": "Apr–May 2027",
+      "Schol. Deadline": "Oct 31, 2026 (scholarships)",
+      "Notes": "SG Tuition Grant = bond to work in SG 3yr",
+      "id": "nus-data-science-econ",
+      "cost": {
+        "#": 6,
+        "University": "NUS – Data Science & Econ",
+        "Tier": "Reach",
+        "Country": "Singapore",
+        "Currency": "SGD",
+        "Tuition/yr (₹L)": 13.5,
+        "Living Costs/yr (₹L)": 9.4,
+        "Other Fees/yr (₹L)": 1.3,
+        "TOTAL Annual Cost (₹L)": 24.2,
+        "4-Year Total (₹L)": 96.8,
+        "Application Fee (₹)": "Free",
+        "Best-Case Annual Cost (₹L)": 24.2,
+        "4-Year Best-Case (₹L)": 96.8,
+        "Scholarship / Aid Notes": "Tuition Grant cuts fees ~70% (SGD 9,350/yr vs SGD 31,000/yr) | Requires 3-yr SG work bond | NUS Merit Scholarship | ASEAN Scholarship",
+        "Aid Policy": "Tuition Grant + Merit 🇸🇬"
+      },
+      "sat": null,
+      "links": {
+        "apply": "https://www.nus.edu.sg/oam/admissions/important-dates",
+        "course": "https://chs.nus.edu.sg/programmes/dse/",
+        "aid": "https://www.nus.edu.sg/oam/scholarships/important-dates-and-application",
+        "note": "3-yr SG work bond if accepting Tuition Grant. Ranked #1 in Asia."
+      },
+      "essays": [
+        {
+          "University": "NUS – DSE",
+          "Tier": "Reach",
+          "Essay / Prompt": "Personal Statement / SOP",
+          "Word Limit": "Open",
+          "Key Themes": "DSE interdisciplinary appeal, data + econ for social impact, Singapore finance hub",
+          "Draft Status": "Not Started",
+          "Notes & Links": "https://chs.nus.edu.sg/programmes/dse/"
+        }
+      ],
+      "interviews": []
+    },
+    {
+      "#": 7,
+      "Tier": "Realistic Reach",
+      "University": "UC Berkeley",
+      "Country": "USA",
+      "Programme": "Economics BA – STEM ✓ (Quant Econ)",
+      "Key Deadline": "Nov 30, 2026\n(1 UC App covers all 6 UCs)",
+      "Application Type": "UC Application – shared with 5 other UCs",
+      "Entry Requirements": "IB 38-42 | SAT Optional",
+      "Scholarship / Aid": "Essentially no intl aid | Explore Fulbright",
+      "Tuition/yr": "~₹46L/yr (nonres tuition+fees)",
+      "Tests": "Test-Blind (SAT NOT used)",
+      "Status": "Not Started",
+      "Priority": "High",
+      "Aid Policy": "No Aid (Intl) ❌",
+      "App Platform": "UC Application",
+      "STEM OPT": "Yes ✓",
+      "Interview?": "No",
+      "Days Until Deadline": "170 days",
+      "App Completion %": "Not Started",
+      "Decision Date": "Late Mar 2027",
+      "Schol. Deadline": "N/A",
+      "Notes": "Competitive. No supplemental essays.",
+      "id": "uc-berkeley",
+      "cost": {
+        "#": 7,
+        "University": "UC Berkeley",
+        "Tier": "Realistic Reach",
+        "Country": "USA",
+        "Currency": "USD",
+        "Tuition/yr (₹L)": 46.1,
+        "Living Costs/yr (₹L)": 21,
+        "Other Fees/yr (₹L)": 2.5,
+        "TOTAL Annual Cost (₹L)": 69.6,
+        "4-Year Total (₹L)": 278.4,
+        "Application Fee (₹)": 5880,
+        "Best-Case Annual Cost (₹L)": "—",
+        "4-Year Best-Case (₹L)": "—",
+        "Scholarship / Aid Notes": "Intl Tuition Grant rate S$20,000/yr (vs S$36,250) | 3-yr SG bond | NTU Scholarship | ❌ ASEAN N/A (India)",
+        "Aid Policy": "No Aid (Intl) ❌"
+      },
+      "sat": {
+        "#": 6,
+        "University": "UC Berkeley",
+        "Tier": "Realistic Reach",
+        "SAT 25th %ile": 1310,
+        "SAT 75th %ile": 1530,
+        "Your Score": 1450,
+        "Gap (25th)": 140,
+        "Gap (75th)": -80,
+        "Status": "🟡 In Range",
+        "Note": "⚠️ UC is TEST-BLIND — SAT not used in admission (enrolled-student data only)"
+      },
+      "links": {
+        "apply": "https://apply.universityofcalifornia.edu/",
+        "course": "https://econ.berkeley.edu/undergraduate/major",
+        "aid": "https://financialaid.berkeley.edu/",
+        "note": "Top public econ dept globally. Same UC Application as other UCs."
+      },
+      "essays": [
+        {
+          "University": "All UC Campuses",
+          "Tier": "Reach",
+          "Essay / Prompt": "UC PIQ #1 – Leadership (350 words)",
+          "Word Limit": "350",
+          "Key Themes": "Learnable founder story – 2,000+ kids, partnerships, global award, policy forum",
+          "Draft Status": "Not Started",
+          "Notes & Links": "4 PIQs shared across ALL 6 UC campuses. Write once, used everywhere."
+        },
+        {
+          "University": "All UC Campuses",
+          "Tier": "Reach",
+          "Essay / Prompt": "UC PIQ #2 – Creative Talent (350 words)",
+          "Word Limit": "350",
+          "Key Themes": "Published author – 3 books, Emily Dickinson Award, TEDx speaker, writing journey",
+          "Draft Status": "Not Started",
+          "Notes & Links": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/personal-insight-questions.html"
+        },
+        {
+          "University": "All UC Campuses",
+          "Tier": "Reach",
+          "Essay / Prompt": "UC PIQ #3 – Greatest Skill (350 words)",
+          "Word Limit": "350",
+          "Key Themes": "Research publication + STEM-Econ academic passion, quant mindset",
+          "Draft Status": "Not Started",
+          "Notes & Links": "Choose 4 of 8 PIQ prompts that best showcase your profile."
+        },
+        {
+          "University": "All UC Campuses",
+          "Tier": "Reach",
+          "Essay / Prompt": "UC PIQ #4 – Community/Opportunity (350 words)",
+          "Word Limit": "350",
+          "Key Themes": "Learnable + visually impaired community / Erudite Summit impact",
+          "Draft Status": "Not Started",
+          "Notes & Links": "All 4 PIQs used simultaneously for all 6 UC campuses."
+        }
+      ],
+      "interviews": []
+    },
+    {
+      "#": 8,
+      "Tier": "Realistic Reach",
+      "University": "University of Michigan",
+      "Country": "USA",
+      "Programme": "Economics (BA) — ⚠️ NOT STEM-designated",
+      "Key Deadline": "Nov 1, 2026 (EA – Non-Binding ✅)\nFeb 1, 2027 (RD)",
+      "Application Type": "EA non-binding (Nov 1) – STRONGLY RECOMMENDED",
+      "Entry Requirements": "IB 38-42 | SAT 1470+",
+      "Scholarship / Aid": "Need-aware for intl | Very limited aid",
+      "Tuition/yr": "~₹51L/yr (nonres ~$61,000)",
+      "Tests": "Test-Optional",
+      "Status": "Not Started",
+      "Priority": "High",
+      "Aid Policy": "Need-Aware ⚠️",
+      "App Platform": "Common App",
+      "STEM OPT": "❌ No — undergrad Econ is BA, not STEM",
+      "Interview?": "No",
+      "Days Until Deadline": "141 days",
+      "App Completion %": "Not Started",
+      "Decision Date": "Dec 2026 (EA)\nMar 2027 (RD)",
+      "Schol. Deadline": "Same as app",
+      "Notes": "EA non-binding. Strong quant econ program.",
+      "id": "university-of-michigan",
+      "cost": {
+        "#": 8,
+        "University": "University of Michigan",
+        "Tier": "Realistic Reach",
+        "Country": "USA",
+        "Currency": "USD",
+        "Tuition/yr (₹L)": 51.2,
+        "Living Costs/yr (₹L)": 15.1,
+        "Other Fees/yr (₹L)": 2.9,
+        "TOTAL Annual Cost (₹L)": 69.2,
+        "4-Year Total (₹L)": 276.8,
+        "Application Fee (₹)": 6300,
+        "Best-Case Annual Cost (₹L)": "—",
+        "4-Year Best-Case (₹L)": "—",
+        "Scholarship / Aid Notes": "Need-aware for intl | Very limited aid | EA application improves odds, not aid",
+        "Aid Policy": "Need-Aware ⚠️"
+      },
+      "sat": {
+        "#": 7,
+        "University": "University of Michigan",
+        "Tier": "Target",
+        "SAT 25th %ile": 1360,
+        "SAT 75th %ile": 1530,
+        "Your Score": 1450,
+        "Gap (25th)": 90,
+        "Gap (75th)": -80,
+        "Status": "🟡 In Range",
+        "Note": "Test-OPTIONAL (Michigan)"
+      },
+      "links": {
+        "apply": "https://lsa.umich.edu/lsa/prospective-students/undergraduate/admissions/undergraduate-application.html",
+        "course": "https://lsa.umich.edu/econ/undergraduates.html",
+        "aid": "https://finaid.umich.edu/",
+        "note": "EA (Nov 1, non-binding) meaningfully improves admission odds over RD."
+      },
+      "essays": [
+        {
+          "University": "Yale University",
+          "Tier": "Reach",
+          "Essay / Prompt": "Why Yale? (125 words)",
+          "Word Limit": "125",
+          "Key Themes": "Specific Yale Math-Econ faculty, residential college system, research culture",
+          "Draft Status": "Not Started",
+          "Notes & Links": "https://admissions.yale.edu/essay-topics"
+        },
+        {
+          "University": "Yale University",
+          "Tier": "Reach",
+          "Essay / Prompt": "Long Essay – 1 of 3 prompts (400 words)",
+          "Word Limit": "400",
+          "Key Themes": "Learnable origin OR Emily Dickinson poetry OR Erudite Summit public policy",
+          "Draft Status": "Not Started",
+          "Notes & Links": "Choose ONE. Show depth, not breadth."
+        },
+        {
+          "University": "Yale University",
+          "Tier": "Reach",
+          "Essay / Prompt": "Short Answers × 5 (50-200 words each)",
+          "Word Limit": "50–200 ea",
+          "Key Themes": "STEM-Econ curiosity, Learnable community, books/writing, residential college",
+          "Draft Status": "Not Started",
+          "Notes & Links": "Most short answers of any school – budget 2-3 weeks."
+        },
+        {
+          "University": "Duke University",
+          "Tier": "Reach",
+          "Essay / Prompt": "Why Duke? (250 words)",
+          "Word Limit": "250",
+          "Key Themes": "Duke Econ BS curriculum, Financial Econ concentration, Bass Connections research",
+          "Draft Status": "Not Started",
+          "Notes & Links": "https://admissions.duke.edu/apply/"
+        },
+        {
+          "University": "University of Michigan",
+          "Tier": "Realistic Reach",
+          "Essay / Prompt": "Why Michigan? (100 words)",
+          "Word Limit": "100",
+          "Key Themes": "LSA Econ BS STEM, research opportunities, Ann Arbor community",
+          "Draft Status": "Not Started",
+          "Notes & Links": "https://lsa.umich.edu/lsa/prospective-students/undergraduate/admissions/undergraduate-application.html"
+        },
+        {
+          "University": "Emory University",
+          "Tier": "Target",
+          "Essay / Prompt": "Why Emory? (150 words)",
+          "Word Limit": "150",
+          "Key Themes": "Emory STEM-Econ, Oxford College option, Atlanta finance/tech hub",
+          "Draft Status": "Not Started",
+          "Notes & Links": "https://apply.emory.edu/majors/economics.html"
+        },
+        {
+          "University": "Ashoka University",
+          "Tier": "Safety",
+          "Essay / Prompt": "Statement of Purpose (Ashoka-specific)",
+          "Word Limit": "Open",
+          "Key Themes": "Why liberal arts, why Ashoka, Learnable alignment with Ashoka's mission",
+          "Draft Status": "Not Started",
+          "Notes & Links": "https://application.ashoka.edu.in/ — Round 1 (Nov 2026) = best scholarship odds"
+        }
+      ],
+      "interviews": []
+    },
+    {
+      "#": 9,
+      "Tier": "Realistic Reach",
+      "University": "NTU – Economics",
+      "Country": "Singapore",
+      "Programme": "Economics (BSocSci Hons)",
+      "Key Deadline": "March 2027\n(confirm on NTU portal)",
+      "Application Type": "Direct intl application",
+      "Entry Requirements": "IB 36-40 | HL Math preferred",
+      "Scholarship / Aid": "Tuition Grant (intl rate, 3-yr SG bond) | NTU Scholarship | ❌ ASEAN N/A (India not in ASEAN)",
+      "Tuition/yr": "~₹12.6L/yr (intl Grant rate S$20,000)",
+      "Tests": "SAT Optional",
+      "Status": "Not Started",
+      "Priority": "High",
+      "Aid Policy": "Tuition Grant + Merit 🇸🇬",
+      "App Platform": "Direct – NTU Portal",
+      "STEM OPT": "N/A (SG)",
+      "Interview?": "No",
+      "Days Until Deadline": "261 days",
+      "App Completion %": "Not Started",
+      "Decision Date": "Apr–May 2027",
+      "Schol. Deadline": "Oct 31, 2026 (scholarships)",
+      "Notes": "NTU scholarship separate from Tuition Grant",
+      "id": "ntu-economics",
+      "cost": {
+        "#": 9,
+        "University": "NTU – Economics",
+        "Tier": "Realistic Reach",
+        "Country": "Singapore",
+        "Currency": "SGD",
+        "Tuition/yr (₹L)": 12.6,
+        "Living Costs/yr (₹L)": 9.4,
+        "Other Fees/yr (₹L)": 1.3,
+        "TOTAL Annual Cost (₹L)": 23.3,
+        "4-Year Total (₹L)": 93.2,
+        "Application Fee (₹)": "Free",
+        "Best-Case Annual Cost (₹L)": 23.3,
+        "4-Year Best-Case (₹L)": 93.2,
+        "Scholarship / Aid Notes": "Tuition Grant cuts fees ~70% (SGD 8,950/yr vs SGD 30,000/yr) | 3-yr SG work bond | NTU Scholarship | ASEAN Scholarship",
+        "Aid Policy": "Tuition Grant + Merit 🇸🇬"
+      },
+      "sat": null,
+      "links": {
+        "apply": "https://www.ntu.edu.sg/admissions/undergraduate/admission-guide",
+        "course": "https://www.ntu.edu.sg/sss/admissions/undergraduate-education/economics/BSocSci-in-ECON",
+        "aid": "https://www.ntu.edu.sg/admissions/undergraduate/admission-guide/scholarships",
+        "note": "Ranked #2 in Asia. Strong quant curriculum."
+      },
+      "essays": [
+        {
+          "University": "NTU – Economics",
+          "Tier": "Realistic Reach",
+          "Essay / Prompt": "Personal Essay (NTU direct)",
+          "Word Limit": "Open",
+          "Key Themes": "NTU quant econ, Singapore finance hub, Learnable social entrepreneurship",
+          "Draft Status": "Not Started",
+          "Notes & Links": "https://www.ntu.edu.sg/admissions/undergraduate/admission-guide"
+        }
+      ],
+      "interviews": []
+    },
+    {
+      "#": 10,
+      "Tier": "Target",
+      "University": "Emory University",
+      "Country": "USA",
+      "Programme": "Economics (BA, STEM-certified)",
+      "Key Deadline": "Nov 1, 2026 (ED I – binding)\nJan 1, 2027 (RD)",
+      "Application Type": "ED I binding / RD via Common App",
+      "Entry Requirements": "IB 37-41 | SAT 1440+",
+      "Scholarship / Aid": "Need-aware for intl | Oxford College backup option",
+      "Tuition/yr": "~₹59L/yr ($70,300)",
+      "Tests": "Test-Optional",
+      "Status": "Not Started",
+      "Priority": "Medium",
+      "Aid Policy": "Need-Aware ⚠️",
+      "App Platform": "Common App",
+      "STEM OPT": "Yes ✓",
+      "Interview?": "No",
+      "Days Until Deadline": "141 days",
+      "App Completion %": "Not Started",
+      "Decision Date": "Dec 2026 (ED)\nMar 2027 (RD)",
+      "Schol. Deadline": "Same as app",
+      "Notes": "ED binding. QSS major worth checking.",
+      "id": "emory-university",
+      "cost": {
+        "#": 10,
+        "University": "Emory University",
+        "Tier": "Target",
+        "Country": "USA",
+        "Currency": "USD",
+        "Tuition/yr (₹L)": 59.1,
+        "Living Costs/yr (₹L)": 16.8,
+        "Other Fees/yr (₹L)": 3.4,
+        "TOTAL Annual Cost (₹L)": 79.3,
+        "4-Year Total (₹L)": 317.2,
+        "Application Fee (₹)": 6300,
+        "Best-Case Annual Cost (₹L)": "—",
+        "4-Year Best-Case (₹L)": "—",
+        "Scholarship / Aid Notes": "Need-aware for intl | Very limited aid | Oxford College option cheaper (same degree)",
+        "Aid Policy": "Need-Aware ⚠️"
+      },
+      "sat": {
+        "#": 8,
+        "University": "Emory University",
+        "Tier": "Target",
+        "SAT 25th %ile": 1500,
+        "SAT 75th %ile": 1570,
+        "Your Score": 1450,
+        "Gap (25th)": -50,
+        "Gap (75th)": -120,
+        "Status": "🔴 Below 25th",
+        "Note": "Test-OPTIONAL (Emory)"
+      },
+      "links": {
+        "apply": "https://apply.emory.edu/majors/economics.html",
+        "course": "https://economics.emory.edu/undergraduate/index.html",
+        "aid": "https://www.emory.edu/financial_aid/",
+        "note": "Oxford College = smart backup – transfers to Emory main after 2 yrs."
+      },
+      "essays": [
+        {
+          "University": "Emory University",
+          "Tier": "Target",
+          "Essay / Prompt": "Why Emory? (150 words)",
+          "Word Limit": "150",
+          "Key Themes": "Emory STEM-Econ, Oxford College option, Atlanta finance/tech hub",
+          "Draft Status": "Not Started",
+          "Notes & Links": "https://apply.emory.edu/majors/economics.html"
+        }
+      ],
+      "interviews": []
+    },
+    {
+      "#": 11,
+      "Tier": "Target",
+      "University": "UC San Diego",
+      "Country": "USA",
+      "Programme": "Business Economics BS – STEM ✓",
+      "Key Deadline": "Nov 30, 2026\n(1 UC App covers all 6 UCs)",
+      "Application Type": "UC Application – shared with 5 other UCs\n⚠️ Select Business Econ for STEM",
+      "Entry Requirements": "IB 35-39 | SAT Optional",
+      "Scholarship / Aid": "Very limited intl aid | STEM OPT approved Mar 2021",
+      "Tuition/yr": "~₹46L/yr (nonres tuition+fees)",
+      "Tests": "Test-Blind (SAT NOT used)",
+      "Status": "Not Started",
+      "Priority": "Medium",
+      "Aid Policy": "No Aid (Intl) ❌",
+      "App Platform": "UC Application",
+      "STEM OPT": "Yes ✓ (Bus. Econ only)",
+      "Interview?": "No",
+      "Days Until Deadline": "170 days",
+      "App Completion %": "Not Started",
+      "Decision Date": "Late Mar 2027",
+      "Schol. Deadline": "N/A",
+      "Notes": "STEM only via Business Economics CIP",
+      "id": "uc-san-diego",
+      "cost": {
+        "#": 11,
+        "University": "UC San Diego",
+        "Tier": "Target",
+        "Country": "USA",
+        "Currency": "USD",
+        "Tuition/yr (₹L)": 46.1,
+        "Living Costs/yr (₹L)": 18.5,
+        "Other Fees/yr (₹L)": 2.5,
+        "TOTAL Annual Cost (₹L)": 67.1,
+        "4-Year Total (₹L)": 268.4,
+        "Application Fee (₹)": 5880,
+        "Best-Case Annual Cost (₹L)": "—",
+        "4-Year Best-Case (₹L)": "—",
+        "Scholarship / Aid Notes": "Very limited institutional aid for intl | STEM OPT eligible (Business Econ BS)",
+        "Aid Policy": "No Aid (Intl) ❌"
+      },
+      "sat": {
+        "#": 9,
+        "University": "UC San Diego",
+        "Tier": "Target",
+        "SAT 25th %ile": 1290,
+        "SAT 75th %ile": 1530,
+        "Your Score": 1450,
+        "Gap (25th)": 160,
+        "Gap (75th)": -80,
+        "Status": "🟡 In Range",
+        "Note": "⚠️ UC is TEST-BLIND — SAT not used in admission (enrolled-student data only)"
+      },
+      "links": {
+        "apply": "https://apply.universityofcalifornia.edu/",
+        "course": "https://economics.ucsd.edu/undergraduate-program/major-minor-requirements/BusEcon.html",
+        "aid": "https://financialaid.ucsd.edu/",
+        "note": "⚠️ Must select Business Economics – regular Econ is NOT STEM."
+      },
+      "essays": [
+        {
+          "University": "All UC Campuses",
+          "Tier": "Reach",
+          "Essay / Prompt": "UC PIQ #1 – Leadership (350 words)",
+          "Word Limit": "350",
+          "Key Themes": "Learnable founder story – 2,000+ kids, partnerships, global award, policy forum",
+          "Draft Status": "Not Started",
+          "Notes & Links": "4 PIQs shared across ALL 6 UC campuses. Write once, used everywhere."
+        },
+        {
+          "University": "All UC Campuses",
+          "Tier": "Reach",
+          "Essay / Prompt": "UC PIQ #2 – Creative Talent (350 words)",
+          "Word Limit": "350",
+          "Key Themes": "Published author – 3 books, Emily Dickinson Award, TEDx speaker, writing journey",
+          "Draft Status": "Not Started",
+          "Notes & Links": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/personal-insight-questions.html"
+        },
+        {
+          "University": "All UC Campuses",
+          "Tier": "Reach",
+          "Essay / Prompt": "UC PIQ #3 – Greatest Skill (350 words)",
+          "Word Limit": "350",
+          "Key Themes": "Research publication + STEM-Econ academic passion, quant mindset",
+          "Draft Status": "Not Started",
+          "Notes & Links": "Choose 4 of 8 PIQ prompts that best showcase your profile."
+        },
+        {
+          "University": "All UC Campuses",
+          "Tier": "Reach",
+          "Essay / Prompt": "UC PIQ #4 – Community/Opportunity (350 words)",
+          "Word Limit": "350",
+          "Key Themes": "Learnable + visually impaired community / Erudite Summit impact",
+          "Draft Status": "Not Started",
+          "Notes & Links": "All 4 PIQs used simultaneously for all 6 UC campuses."
+        }
+      ],
+      "interviews": []
+    },
+    {
+      "#": 12,
+      "Tier": "Target",
+      "University": "UC Santa Barbara",
+      "Country": "USA",
+      "Programme": "Economics BA – STEM ✓",
+      "Key Deadline": "Nov 30, 2026\n(1 UC App covers all 6 UCs)",
+      "Application Type": "UC Application – shared with 5 other UCs",
+      "Entry Requirements": "IB 34-38 | SAT Optional",
+      "Scholarship / Aid": "Very limited intl aid",
+      "Tuition/yr": "~₹46L/yr (nonres tuition+fees)",
+      "Tests": "Test-Blind (SAT NOT used)",
+      "Status": "Not Started",
+      "Priority": "Medium",
+      "Aid Policy": "No Aid (Intl) ❌",
+      "App Platform": "UC Application",
+      "STEM OPT": "Yes ✓",
+      "Interview?": "No",
+      "Days Until Deadline": "170 days",
+      "App Completion %": "Not Started",
+      "Decision Date": "Late Mar 2027",
+      "Schol. Deadline": "N/A",
+      "Notes": "Good quant econ faculty  ⚠️ CONFIRM plain Economics BA STEM status with UCSB OISS (Econ & Accounting is confirmed STEM).",
+      "id": "uc-santa-barbara",
+      "cost": {
+        "#": 12,
+        "University": "UC Santa Barbara",
+        "Tier": "Target",
+        "Country": "USA",
+        "Currency": "USD",
+        "Tuition/yr (₹L)": 46.1,
+        "Living Costs/yr (₹L)": 15.1,
+        "Other Fees/yr (₹L)": 2.5,
+        "TOTAL Annual Cost (₹L)": 63.7,
+        "4-Year Total (₹L)": 254.8,
+        "Application Fee (₹)": 5880,
+        "Best-Case Annual Cost (₹L)": "—",
+        "4-Year Best-Case (₹L)": "—",
+        "Scholarship / Aid Notes": "Very limited institutional aid for intl",
+        "Aid Policy": "No Aid (Intl) ❌"
+      },
+      "sat": {
+        "#": 10,
+        "University": "UC Santa Barbara",
+        "Tier": "Target",
+        "SAT 25th %ile": 1280,
+        "SAT 75th %ile": 1500,
+        "Your Score": 1450,
+        "Gap (25th)": 170,
+        "Gap (75th)": -50,
+        "Status": "🟡 In Range",
+        "Note": "⚠️ UC is TEST-BLIND — SAT not used in admission (enrolled-student data only)"
+      },
+      "links": {
+        "apply": "https://apply.universityofcalifornia.edu/",
+        "course": "https://econ.ucsb.edu/programs/undergraduate/ba-economics",
+        "aid": "https://financialaid.ucsb.edu/",
+        "note": "Beautiful coastal campus. Same UC Application."
+      },
+      "essays": [
+        {
+          "University": "All UC Campuses",
+          "Tier": "Reach",
+          "Essay / Prompt": "UC PIQ #1 – Leadership (350 words)",
+          "Word Limit": "350",
+          "Key Themes": "Learnable founder story – 2,000+ kids, partnerships, global award, policy forum",
+          "Draft Status": "Not Started",
+          "Notes & Links": "4 PIQs shared across ALL 6 UC campuses. Write once, used everywhere."
+        },
+        {
+          "University": "All UC Campuses",
+          "Tier": "Reach",
+          "Essay / Prompt": "UC PIQ #2 – Creative Talent (350 words)",
+          "Word Limit": "350",
+          "Key Themes": "Published author – 3 books, Emily Dickinson Award, TEDx speaker, writing journey",
+          "Draft Status": "Not Started",
+          "Notes & Links": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/personal-insight-questions.html"
+        },
+        {
+          "University": "All UC Campuses",
+          "Tier": "Reach",
+          "Essay / Prompt": "UC PIQ #3 – Greatest Skill (350 words)",
+          "Word Limit": "350",
+          "Key Themes": "Research publication + STEM-Econ academic passion, quant mindset",
+          "Draft Status": "Not Started",
+          "Notes & Links": "Choose 4 of 8 PIQ prompts that best showcase your profile."
+        },
+        {
+          "University": "All UC Campuses",
+          "Tier": "Reach",
+          "Essay / Prompt": "UC PIQ #4 – Community/Opportunity (350 words)",
+          "Word Limit": "350",
+          "Key Themes": "Learnable + visually impaired community / Erudite Summit impact",
+          "Draft Status": "Not Started",
+          "Notes & Links": "All 4 PIQs used simultaneously for all 6 UC campuses."
+        }
+      ],
+      "interviews": []
+    },
+    {
+      "#": 13,
+      "Tier": "Target",
+      "University": "UC Davis",
+      "Country": "USA",
+      "Programme": "Economics BA – STEM ✓ (reclassified 2019)",
+      "Key Deadline": "Nov 30, 2026\n(1 UC App covers all 6 UCs)",
+      "Application Type": "UC Application – shared with 5 other UCs",
+      "Entry Requirements": "IB 33-37 | SAT Optional",
+      "Scholarship / Aid": "Very limited intl aid",
+      "Tuition/yr": "~₹46L/yr (nonres tuition+fees)",
+      "Tests": "Test-Blind (SAT NOT used)",
+      "Status": "Not Started",
+      "Priority": "Medium",
+      "Aid Policy": "No Aid (Intl) ❌",
+      "App Platform": "UC Application",
+      "STEM OPT": "Yes ✓",
+      "Interview?": "No",
+      "Days Until Deadline": "170 days",
+      "App Completion %": "Not Started",
+      "Decision Date": "Late Mar 2027",
+      "Schol. Deadline": "N/A",
+      "Notes": "STEM Econ CIP 45.0603",
+      "id": "uc-davis",
+      "cost": {
+        "#": 13,
+        "University": "UC Davis",
+        "Tier": "Target",
+        "Country": "USA",
+        "Currency": "USD",
+        "Tuition/yr (₹L)": 46.1,
+        "Living Costs/yr (₹L)": 11.8,
+        "Other Fees/yr (₹L)": 2.5,
+        "TOTAL Annual Cost (₹L)": 60.4,
+        "4-Year Total (₹L)": 241.6,
+        "Application Fee (₹)": 5880,
+        "Best-Case Annual Cost (₹L)": "—",
+        "4-Year Best-Case (₹L)": "—",
+        "Scholarship / Aid Notes": "Intl Tuition Grant rate S$26,200/yr (vs S$47,700) | 3-yr SG bond | Global Impact Scholarship | ❌ ASEAN N/A (India)",
+        "Aid Policy": "No Aid (Intl) ❌"
+      },
+      "sat": {
+        "#": 12,
+        "University": "UC Davis",
+        "Tier": "Safety",
+        "SAT 25th %ile": 1210,
+        "SAT 75th %ile": 1480,
+        "Your Score": 1450,
+        "Gap (25th)": 240,
+        "Gap (75th)": -30,
+        "Status": "🟡 In Range",
+        "Note": "⚠️ UC is TEST-BLIND — SAT not used in admission (enrolled-student data only)"
+      },
+      "links": {
+        "apply": "https://apply.universityofcalifornia.edu/",
+        "course": "https://economics.ucdavis.edu/undergraduate",
+        "aid": "https://financialaid.ucdavis.edu/",
+        "note": "Lowest cost of living of all UC options. Same UC Application."
+      },
+      "essays": [
+        {
+          "University": "All UC Campuses",
+          "Tier": "Reach",
+          "Essay / Prompt": "UC PIQ #1 – Leadership (350 words)",
+          "Word Limit": "350",
+          "Key Themes": "Learnable founder story – 2,000+ kids, partnerships, global award, policy forum",
+          "Draft Status": "Not Started",
+          "Notes & Links": "4 PIQs shared across ALL 6 UC campuses. Write once, used everywhere."
+        },
+        {
+          "University": "All UC Campuses",
+          "Tier": "Reach",
+          "Essay / Prompt": "UC PIQ #2 – Creative Talent (350 words)",
+          "Word Limit": "350",
+          "Key Themes": "Published author – 3 books, Emily Dickinson Award, TEDx speaker, writing journey",
+          "Draft Status": "Not Started",
+          "Notes & Links": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/personal-insight-questions.html"
+        },
+        {
+          "University": "All UC Campuses",
+          "Tier": "Reach",
+          "Essay / Prompt": "UC PIQ #3 – Greatest Skill (350 words)",
+          "Word Limit": "350",
+          "Key Themes": "Research publication + STEM-Econ academic passion, quant mindset",
+          "Draft Status": "Not Started",
+          "Notes & Links": "Choose 4 of 8 PIQ prompts that best showcase your profile."
+        },
+        {
+          "University": "All UC Campuses",
+          "Tier": "Reach",
+          "Essay / Prompt": "UC PIQ #4 – Community/Opportunity (350 words)",
+          "Word Limit": "350",
+          "Key Themes": "Learnable + visually impaired community / Erudite Summit impact",
+          "Draft Status": "Not Started",
+          "Notes & Links": "All 4 PIQs used simultaneously for all 6 UC campuses."
+        }
+      ],
+      "interviews": []
+    },
+    {
+      "#": 14,
+      "Tier": "Target",
+      "University": "UC Irvine",
+      "Country": "USA",
+      "Programme": "Quantitative Economics BA – STEM ✓\n⚠️ ONLY Quant Econ is STEM",
+      "Key Deadline": "Nov 30, 2026\n(1 UC App covers all 6 UCs)",
+      "Application Type": "UC Application – shared with 5 other UCs\n⚠️ Select Quantitative Economics",
+      "Entry Requirements": "IB 33-37 | SAT Optional",
+      "Scholarship / Aid": "Very limited intl aid",
+      "Tuition/yr": "~₹46L/yr (nonres tuition+fees)",
+      "Tests": "Test-Blind (SAT NOT used)",
+      "Status": "Not Started",
+      "Priority": "Medium",
+      "Aid Policy": "No Aid (Intl) ❌",
+      "App Platform": "UC Application",
+      "STEM OPT": "Yes ✓ (Quant Econ only)",
+      "Interview?": "No",
+      "Days Until Deadline": "170 days",
+      "App Completion %": "Not Started",
+      "Decision Date": "Late Mar 2027",
+      "Schol. Deadline": "N/A",
+      "Notes": "Select Quant Econ for STEM designation  ⚠️ CONFIRM Quantitative Econ STEM CIP with UCI (only Quant Econ likely STEM).",
+      "id": "uc-irvine",
+      "cost": {
+        "#": 14,
+        "University": "UC Irvine",
+        "Tier": "Target",
+        "Country": "USA",
+        "Currency": "USD",
+        "Tuition/yr (₹L)": 46.1,
+        "Living Costs/yr (₹L)": 16.8,
+        "Other Fees/yr (₹L)": 2.5,
+        "TOTAL Annual Cost (₹L)": 65.4,
+        "4-Year Total (₹L)": 261.6,
+        "Application Fee (₹)": 5880,
+        "Best-Case Annual Cost (₹L)": "—",
+        "4-Year Best-Case (₹L)": "—",
+        "Scholarship / Aid Notes": "Melbourne Intl UG Scholarship — 20% fee remission from 2027 (NOT 100% + stipend)",
+        "Aid Policy": "No Aid (Intl) ❌"
+      },
+      "sat": {
+        "#": 11,
+        "University": "UC Irvine",
+        "Tier": "Target",
+        "SAT 25th %ile": 1250,
+        "SAT 75th %ile": 1510,
+        "Your Score": 1450,
+        "Gap (25th)": 200,
+        "Gap (75th)": -60,
+        "Status": "🟡 In Range",
+        "Note": "⚠️ UC is TEST-BLIND — SAT not used in admission (enrolled-student data only)"
+      },
+      "links": {
+        "apply": "https://apply.universityofcalifornia.edu/",
+        "course": "https://www.economics.uci.edu/undergrad/quant_econ.php",
+        "aid": "https://www.ofas.uci.edu/",
+        "note": "⚠️ CRITICAL: Select Quantitative Econ only. Regular Econ is NOT STEM."
+      },
+      "essays": [
+        {
+          "University": "All UC Campuses",
+          "Tier": "Reach",
+          "Essay / Prompt": "UC PIQ #1 – Leadership (350 words)",
+          "Word Limit": "350",
+          "Key Themes": "Learnable founder story – 2,000+ kids, partnerships, global award, policy forum",
+          "Draft Status": "Not Started",
+          "Notes & Links": "4 PIQs shared across ALL 6 UC campuses. Write once, used everywhere."
+        },
+        {
+          "University": "All UC Campuses",
+          "Tier": "Reach",
+          "Essay / Prompt": "UC PIQ #2 – Creative Talent (350 words)",
+          "Word Limit": "350",
+          "Key Themes": "Published author – 3 books, Emily Dickinson Award, TEDx speaker, writing journey",
+          "Draft Status": "Not Started",
+          "Notes & Links": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/personal-insight-questions.html"
+        },
+        {
+          "University": "All UC Campuses",
+          "Tier": "Reach",
+          "Essay / Prompt": "UC PIQ #3 – Greatest Skill (350 words)",
+          "Word Limit": "350",
+          "Key Themes": "Research publication + STEM-Econ academic passion, quant mindset",
+          "Draft Status": "Not Started",
+          "Notes & Links": "Choose 4 of 8 PIQ prompts that best showcase your profile."
+        },
+        {
+          "University": "All UC Campuses",
+          "Tier": "Reach",
+          "Essay / Prompt": "UC PIQ #4 – Community/Opportunity (350 words)",
+          "Word Limit": "350",
+          "Key Themes": "Learnable + visually impaired community / Erudite Summit impact",
+          "Draft Status": "Not Started",
+          "Notes & Links": "All 4 PIQs used simultaneously for all 6 UC campuses."
+        }
+      ],
+      "interviews": []
+    },
+    {
+      "#": 15,
+      "Tier": "Target",
+      "University": "SMU – Economics",
+      "Country": "Singapore",
+      "Programme": "Economics BSc",
+      "Key Deadline": "~Mar 19, 2027\nTest scores by ~Mar 31",
+      "Application Type": "Direct intl application | Interview required",
+      "Entry Requirements": "IB 34-38 | HL Math preferred",
+      "Scholarship / Aid": "Tuition Grant (intl rate, 3-yr SG bond) | Global Impact Scholarship | ❌ ASEAN N/A (India not in ASEAN)",
+      "Tuition/yr": "~₹16.5L/yr (intl Grant rate S$26,200)",
+      "Tests": "SAT Optional",
+      "Status": "Not Started",
+      "Priority": "Medium",
+      "Aid Policy": "Tuition Grant + Merit 🇸🇬",
+      "App Platform": "Direct – SMU Portal",
+      "STEM OPT": "N/A (SG)",
+      "Interview?": "Yes – Required",
+      "Days Until Deadline": "279 days",
+      "App Completion %": "Not Started",
+      "Decision Date": "Apr–May 2027",
+      "Schol. Deadline": "Mar 19, 2027",
+      "Notes": "Interview required. SMU Application Online.",
+      "id": "smu-economics",
+      "cost": {
+        "#": 15,
+        "University": "SMU – Economics",
+        "Tier": "Target",
+        "Country": "Singapore",
+        "Currency": "SGD",
+        "Tuition/yr (₹L)": 16.5,
+        "Living Costs/yr (₹L)": 9.4,
+        "Other Fees/yr (₹L)": 1.3,
+        "TOTAL Annual Cost (₹L)": 27.2,
+        "4-Year Total (₹L)": 108.8,
+        "Application Fee (₹)": "Free",
+        "Best-Case Annual Cost (₹L)": 27.2,
+        "4-Year Best-Case (₹L)": 108.8,
+        "Scholarship / Aid Notes": "Sydney Scholars India Scholarship Program (UG) + VC's Intl Scholarships Scheme | 'India Equity' award is PG-only",
+        "Aid Policy": "Tuition Grant + Merit 🇸🇬"
+      },
+      "sat": null,
+      "links": {
+        "apply": "https://admissions.smu.edu.sg/",
+        "course": "https://admissions.smu.edu.sg/programmes/bachelor-of-science-economics",
+        "aid": "https://admissions.smu.edu.sg/scholarships",
+        "note": "City campus in downtown Singapore. Interview required."
+      },
+      "essays": [
+        {
+          "University": "SMU – Economics",
+          "Tier": "Target",
+          "Essay / Prompt": "Personal Statement + Interview Prep",
+          "Word Limit": "Open",
+          "Key Themes": "SMU city campus, finance culture, Learnable entrepreneurship, Singapore biz ecosystem",
+          "Draft Status": "Not Started",
+          "Notes & Links": "SMU requires an INTERVIEW – prepare separately."
+        }
+      ],
+      "interviews": [
+        {
+          "University": "SMU – Economics",
+          "Date": "TBD",
+          "Format": "Video – SMU Panel",
+          "Prep Status": "Research SMU",
+          "Outcome": null,
+          "Interviewer": null,
+          "Notes": "Required – book slot via SMU portal"
+        }
+      ]
+    },
+    {
+      "#": 16,
+      "Tier": "Target",
+      "University": "University of Melbourne",
+      "Country": "Australia",
+      "Programme": "BCom – Economics Major",
+      "Key Deadline": "31 May 2027\n(July 2027 / Semester 2 intake)",
+      "Application Type": "Direct intl application",
+      "Entry Requirements": "IB 36-40 | HL Math | IELTS 6.5+",
+      "Scholarship / Aid": "Melbourne Intl UG Scholarship — 20% fee remission from 2027 (NOT 100% + stipend)",
+      "Tuition/yr": "~₹31L/yr (AUD ~57,000)",
+      "Tests": "No SAT – IB direct",
+      "Status": "Not Started",
+      "Priority": "Medium",
+      "Aid Policy": "Merit Scholarships",
+      "App Platform": "Direct – Melbourne",
+      "STEM OPT": "N/A (AU)",
+      "Interview?": "No",
+      "Days Until Deadline": "321 days",
+      "App Completion %": "Not Started",
+      "Decision Date": "May–Jun 2027",
+      "Schol. Deadline": "Oct 31, 2026",
+      "Notes": "S2 intake – Jul 2027. Chancellor's Scholarship competitive.  ⚠️ Exact 31 May 2027 deadline not individually confirmed on official page.",
+      "id": "university-of-melbourne",
+      "cost": {
+        "#": 16,
+        "University": "University of Melbourne",
+        "Tier": "Target",
+        "Country": "Australia",
+        "Currency": "AUD",
+        "Tuition/yr (₹L)": 31.4,
+        "Living Costs/yr (₹L)": 12.1,
+        "Other Fees/yr (₹L)": 1.6,
+        "TOTAL Annual Cost (₹L)": 45.1,
+        "4-Year Total (₹L)": 180.4,
+        "Application Fee (₹)": "Free",
+        "Best-Case Annual Cost (₹L)": 38.82,
+        "4-Year Best-Case (₹L)": 155.28,
+        "Scholarship / Aid Notes": "Melbourne Intl Undergraduate Scholarship — up to 100% tuition + stipend (highly competitive)",
+        "Aid Policy": "Merit Scholarships"
+      },
+      "sat": null,
+      "links": {
+        "apply": "https://study.unimelb.edu.au/find/courses/undergraduate/bachelor-of-commerce/how-to-apply/",
+        "course": "https://study.unimelb.edu.au/find/courses/undergraduate/bachelor-of-commerce/",
+        "aid": "https://scholarships.unimelb.edu.au/",
+        "note": "July 2027 Semester 2 intake. Melbourne Model: 3-yr BCom → Masters."
+      },
+      "essays": [
+        {
+          "University": "Yale University",
+          "Tier": "Reach",
+          "Essay / Prompt": "Why Yale? (125 words)",
+          "Word Limit": "125",
+          "Key Themes": "Specific Yale Math-Econ faculty, residential college system, research culture",
+          "Draft Status": "Not Started",
+          "Notes & Links": "https://admissions.yale.edu/essay-topics"
+        },
+        {
+          "University": "Yale University",
+          "Tier": "Reach",
+          "Essay / Prompt": "Long Essay – 1 of 3 prompts (400 words)",
+          "Word Limit": "400",
+          "Key Themes": "Learnable origin OR Emily Dickinson poetry OR Erudite Summit public policy",
+          "Draft Status": "Not Started",
+          "Notes & Links": "Choose ONE. Show depth, not breadth."
+        },
+        {
+          "University": "Yale University",
+          "Tier": "Reach",
+          "Essay / Prompt": "Short Answers × 5 (50-200 words each)",
+          "Word Limit": "50–200 ea",
+          "Key Themes": "STEM-Econ curiosity, Learnable community, books/writing, residential college",
+          "Draft Status": "Not Started",
+          "Notes & Links": "Most short answers of any school – budget 2-3 weeks."
+        },
+        {
+          "University": "Duke University",
+          "Tier": "Reach",
+          "Essay / Prompt": "Why Duke? (250 words)",
+          "Word Limit": "250",
+          "Key Themes": "Duke Econ BS curriculum, Financial Econ concentration, Bass Connections research",
+          "Draft Status": "Not Started",
+          "Notes & Links": "https://admissions.duke.edu/apply/"
+        },
+        {
+          "University": "University of Michigan",
+          "Tier": "Realistic Reach",
+          "Essay / Prompt": "Why Michigan? (100 words)",
+          "Word Limit": "100",
+          "Key Themes": "LSA Econ BS STEM, research opportunities, Ann Arbor community",
+          "Draft Status": "Not Started",
+          "Notes & Links": "https://lsa.umich.edu/lsa/prospective-students/undergraduate/admissions/undergraduate-application.html"
+        },
+        {
+          "University": "Emory University",
+          "Tier": "Target",
+          "Essay / Prompt": "Why Emory? (150 words)",
+          "Word Limit": "150",
+          "Key Themes": "Emory STEM-Econ, Oxford College option, Atlanta finance/tech hub",
+          "Draft Status": "Not Started",
+          "Notes & Links": "https://apply.emory.edu/majors/economics.html"
+        },
+        {
+          "University": "Ashoka University",
+          "Tier": "Safety",
+          "Essay / Prompt": "Statement of Purpose (Ashoka-specific)",
+          "Word Limit": "Open",
+          "Key Themes": "Why liberal arts, why Ashoka, Learnable alignment with Ashoka's mission",
+          "Draft Status": "Not Started",
+          "Notes & Links": "https://application.ashoka.edu.in/ — Round 1 (Nov 2026) = best scholarship odds"
+        }
+      ],
+      "interviews": []
+    },
+    {
+      "#": 17,
+      "Tier": "Target",
+      "University": "University of Sydney",
+      "Country": "Australia",
+      "Programme": "Bachelor of Economics",
+      "Key Deadline": "~Feb–Mar 2027\n(Semester 1 2027 intake)",
+      "Application Type": "Direct intl application",
+      "Entry Requirements": "IB 36-40 | HL Math | IELTS 6.5+",
+      "Scholarship / Aid": "Sydney Scholars India Scholarship Program (UG) | VC's Intl Scholarships Scheme | ⚠️ 'India Equity' award is postgraduate-only",
+      "Tuition/yr": "~₹32.5L/yr (AUD 59,100)",
+      "Tests": "No SAT – IB direct",
+      "Status": "Not Started",
+      "Priority": "Medium",
+      "Aid Policy": "Merit Scholarships",
+      "App Platform": "Direct – Sydney",
+      "STEM OPT": "N/A (AU)",
+      "Interview?": "No",
+      "Days Until Deadline": "352 days",
+      "App Completion %": "Not Started",
+      "Decision Date": "May–Jun 2027",
+      "Schol. Deadline": "Mar 31, 2027",
+      "Notes": "S2 intake – Jul 2027. Vice-Chancellor's Intl Scholarship.",
+      "id": "university-of-sydney",
+      "cost": {
+        "#": 17,
+        "University": "University of Sydney",
+        "Tier": "Target",
+        "Country": "Australia",
+        "Currency": "AUD",
+        "Tuition/yr (₹L)": 32.5,
+        "Living Costs/yr (₹L)": 13.8,
+        "Other Fees/yr (₹L)": 1.6,
+        "TOTAL Annual Cost (₹L)": 47.9,
+        "4-Year Total (₹L)": 191.6,
+        "Application Fee (₹)": "Free",
+        "Best-Case Annual Cost (₹L)": 47.9,
+        "4-Year Best-Case (₹L)": 191.6,
+        "Scholarship / Aid Notes": "Sydney Scholars India Equity Scholarship | Vice-Chancellor's Intl Scholarship | Academic Excellence Scholarship",
+        "Aid Policy": "Merit Scholarships"
+      },
+      "sat": null,
+      "links": {
+        "apply": "https://www.sydney.edu.au/study/applying/how-to-apply/international-students.html",
+        "course": "https://www.sydney.edu.au/courses/courses/uc/bachelor-of-economics.html",
+        "aid": "https://www.sydney.edu.au/scholarships/e/sydney-international-undergraduate-academic-excellence-scholarship.html",
+        "note": "#2 in Australia. Strong finance recruiting in Sydney CBD."
+      },
+      "essays": [
+        {
+          "University": "Yale University",
+          "Tier": "Reach",
+          "Essay / Prompt": "Why Yale? (125 words)",
+          "Word Limit": "125",
+          "Key Themes": "Specific Yale Math-Econ faculty, residential college system, research culture",
+          "Draft Status": "Not Started",
+          "Notes & Links": "https://admissions.yale.edu/essay-topics"
+        },
+        {
+          "University": "Yale University",
+          "Tier": "Reach",
+          "Essay / Prompt": "Long Essay – 1 of 3 prompts (400 words)",
+          "Word Limit": "400",
+          "Key Themes": "Learnable origin OR Emily Dickinson poetry OR Erudite Summit public policy",
+          "Draft Status": "Not Started",
+          "Notes & Links": "Choose ONE. Show depth, not breadth."
+        },
+        {
+          "University": "Yale University",
+          "Tier": "Reach",
+          "Essay / Prompt": "Short Answers × 5 (50-200 words each)",
+          "Word Limit": "50–200 ea",
+          "Key Themes": "STEM-Econ curiosity, Learnable community, books/writing, residential college",
+          "Draft Status": "Not Started",
+          "Notes & Links": "Most short answers of any school – budget 2-3 weeks."
+        },
+        {
+          "University": "Duke University",
+          "Tier": "Reach",
+          "Essay / Prompt": "Why Duke? (250 words)",
+          "Word Limit": "250",
+          "Key Themes": "Duke Econ BS curriculum, Financial Econ concentration, Bass Connections research",
+          "Draft Status": "Not Started",
+          "Notes & Links": "https://admissions.duke.edu/apply/"
+        },
+        {
+          "University": "University of Michigan",
+          "Tier": "Realistic Reach",
+          "Essay / Prompt": "Why Michigan? (100 words)",
+          "Word Limit": "100",
+          "Key Themes": "LSA Econ BS STEM, research opportunities, Ann Arbor community",
+          "Draft Status": "Not Started",
+          "Notes & Links": "https://lsa.umich.edu/lsa/prospective-students/undergraduate/admissions/undergraduate-application.html"
+        },
+        {
+          "University": "Emory University",
+          "Tier": "Target",
+          "Essay / Prompt": "Why Emory? (150 words)",
+          "Word Limit": "150",
+          "Key Themes": "Emory STEM-Econ, Oxford College option, Atlanta finance/tech hub",
+          "Draft Status": "Not Started",
+          "Notes & Links": "https://apply.emory.edu/majors/economics.html"
+        },
+        {
+          "University": "Ashoka University",
+          "Tier": "Safety",
+          "Essay / Prompt": "Statement of Purpose (Ashoka-specific)",
+          "Word Limit": "Open",
+          "Key Themes": "Why liberal arts, why Ashoka, Learnable alignment with Ashoka's mission",
+          "Draft Status": "Not Started",
+          "Notes & Links": "https://application.ashoka.edu.in/ — Round 1 (Nov 2026) = best scholarship odds"
+        }
+      ],
+      "interviews": []
+    },
+    {
+      "#": 18,
+      "Tier": "Target",
+      "University": "UNSW Sydney",
+      "Country": "Australia",
+      "Programme": "BCom – Economics Major",
+      "Key Deadline": "Apply early – offers Dec/Jan\nfor Term 1 2027",
+      "Application Type": "Direct intl application",
+      "Entry Requirements": "IB 35-39 | HL Math | IELTS 6.5+",
+      "Scholarship / Aid": "International Student Award – 20% tuition | Scientia Scholarship",
+      "Tuition/yr": "~₹27.5L/yr (AUD ~50,000)",
+      "Tests": "No SAT – IB direct",
+      "Status": "Not Started",
+      "Priority": "Medium",
+      "Aid Policy": "Merit Scholarships",
+      "App Platform": "Direct – UNSW",
+      "STEM OPT": "N/A (AU)",
+      "Interview?": "No",
+      "Days Until Deadline": "260 days",
+      "App Completion %": "Not Started",
+      "Decision Date": "Mar–Apr 2027",
+      "Schol. Deadline": "Dec 31, 2026",
+      "Notes": "T2 intake – Jun 2027 (closest to Jul). UNSW Global Excellence.",
+      "id": "unsw-sydney",
+      "cost": {
+        "#": 18,
+        "University": "UNSW Sydney",
+        "Tier": "Target",
+        "Country": "Australia",
+        "Currency": "AUD",
+        "Tuition/yr (₹L)": 27.5,
+        "Living Costs/yr (₹L)": 13.8,
+        "Other Fees/yr (₹L)": 1.6,
+        "TOTAL Annual Cost (₹L)": 42.9,
+        "4-Year Total (₹L)": 171.6,
+        "Application Fee (₹)": "Free",
+        "Best-Case Annual Cost (₹L)": 37.4,
+        "4-Year Best-Case (₹L)": 149.6,
+        "Scholarship / Aid Notes": "Monash Intl Merit Scholarship — AUD 15,000/yr (not 10,000)",
+        "Aid Policy": "Merit Scholarships"
+      },
+      "sat": null,
+      "links": {
+        "apply": "https://www.unsw.edu.au/study/international-students/admissions-info",
+        "course": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-commerce",
+        "aid": "https://www.scholarships.unsw.edu.au/",
+        "note": "#3 in Australia. CBD 20 min away. Strong finance + consulting recruiting."
+      },
+      "essays": [],
+      "interviews": []
+    },
+    {
+      "#": 19,
+      "Tier": "Safety",
+      "University": "Ashoka University",
+      "Country": "India",
+      "Programme": "Economics (BSc / BA)",
+      "Key Deadline": "Nov 2026 – Round 1 (RECOMMENDED)\nJan 2027 (R2) | Mar 2027 (R3)",
+      "Application Type": "Direct application | SOP + Interview",
+      "Entry Requirements": "IB 32+ | Holistic | SOP + Interview",
+      "Scholarship / Aid": "Up to 500 merit & need-based scholarships | Ashoka Scholar Award – up to 100% tuition",
+      "Tuition/yr": "~₹10.2L/yr tuition (total ~₹12.5L)",
+      "Tests": "No SAT; IB + SOP",
+      "Status": "Not Started",
+      "Priority": "Low",
+      "Aid Policy": "Merit + Need-Based",
+      "App Platform": "Direct – Ashoka Portal",
+      "STEM OPT": "N/A (IN)",
+      "Interview?": "Yes – Interview",
+      "Days Until Deadline": "170 days",
+      "App Completion %": "Not Started",
+      "Decision Date": "Rolling / Jan 2027",
+      "Schol. Deadline": "Same as app",
+      "Notes": "Interview required. R1 = Nov 30.  ⚠️ 2027-intake round dates not yet published by Ashoka — confirm on site.",
+      "id": "ashoka-university",
+      "cost": {
+        "#": 19,
+        "University": "Ashoka University",
+        "Tier": "Safety",
+        "Country": "India",
+        "Currency": "INR",
+        "Tuition/yr (₹L)": 10.2,
+        "Living Costs/yr (₹L)": 4,
+        "Other Fees/yr (₹L)": 1,
+        "TOTAL Annual Cost (₹L)": 15.2,
+        "4-Year Total (₹L)": 60.8,
+        "Application Fee (₹)": 2500,
+        "Best-Case Annual Cost (₹L)": 5,
+        "4-Year Best-Case (₹L)": 20,
+        "Scholarship / Aid Notes": "Up to 500 merit & need-based scholarships | Ashoka Scholar Award — up to 100% tuition | Need + merit based",
+        "Aid Policy": "Merit + Need-Based"
+      },
+      "sat": null,
+      "links": {
+        "apply": "https://application.ashoka.edu.in/",
+        "course": "https://www.ashoka.edu.in/programme/undergraduate-in-economics-2/",
+        "aid": "https://www.ashoka.edu.in/financial-aid/",
+        "note": "Best liberal arts univ in India. Round 1 = best scholarship odds."
+      },
+      "essays": [
+        {
+          "University": "Ashoka University",
+          "Tier": "Safety",
+          "Essay / Prompt": "Statement of Purpose (Ashoka-specific)",
+          "Word Limit": "Open",
+          "Key Themes": "Why liberal arts, why Ashoka, Learnable alignment with Ashoka's mission",
+          "Draft Status": "Not Started",
+          "Notes & Links": "https://application.ashoka.edu.in/ — Round 1 (Nov 2026) = best scholarship odds"
+        }
+      ],
+      "interviews": [
+        {
+          "University": "Ashoka University",
+          "Date": "TBD",
+          "Format": "Online Video",
+          "Prep Status": "Research Ashoka",
+          "Outcome": null,
+          "Interviewer": null,
+          "Notes": "Required for scholarship & admission"
+        }
+      ]
+    },
+    {
+      "#": 20,
+      "Tier": "Safety",
+      "University": "Monash University",
+      "Country": "Australia",
+      "Programme": "BCom – Economics Major",
+      "Key Deadline": "~Feb 2027\n(Semester 1 2027 intake)",
+      "Application Type": "Direct intl application",
+      "Entry Requirements": "IB 33-37 | HL Math | IELTS 6.5+",
+      "Scholarship / Aid": "Monash Intl Merit Scholarship — AUD 15,000/yr (not 10,000)",
+      "Tuition/yr": "~₹28.7L/yr (AUD 52,200)",
+      "Tests": "No SAT – IB direct",
+      "Status": "Not Started",
+      "Priority": "Low",
+      "Aid Policy": "Merit Scholarships",
+      "App Platform": "Direct – Monash",
+      "STEM OPT": "N/A (AU)",
+      "Interview?": "No",
+      "Days Until Deadline": "321 days",
+      "App Completion %": "Not Started",
+      "Decision Date": "May–Jun 2027",
+      "Schol. Deadline": "Oct 31, 2026",
+      "Notes": "S2 intake – Jul 2027. Monash International Merit Scholarship.",
+      "id": "monash-university",
+      "cost": {
+        "#": 20,
+        "University": "Monash University",
+        "Tier": "Safety",
+        "Country": "Australia",
+        "Currency": "AUD",
+        "Tuition/yr (₹L)": 28.7,
+        "Living Costs/yr (₹L)": 12.1,
+        "Other Fees/yr (₹L)": 1.6,
+        "TOTAL Annual Cost (₹L)": 42.4,
+        "4-Year Total (₹L)": 169.6,
+        "Application Fee (₹)": "Free",
+        "Best-Case Annual Cost (₹L)": 34.15,
+        "4-Year Best-Case (₹L)": 136.6,
+        "Scholarship / Aid Notes": "Monash International Merit Scholarship — up to AUD 10,000/yr off tuition",
+        "Aid Policy": "Merit Scholarships"
+      },
+      "sat": null,
+      "links": {
+        "apply": "https://www.monash.edu/admissions",
+        "course": "https://www.monash.edu/study/courses/find-a-course/commerce-b3701",
+        "aid": "https://www.monash.edu/study/fees-scholarships/scholarships/find-a-scholarship",
+        "note": "Solid safety with merit aid. Lower ranked than Melbourne/UNSW/Sydney."
+      },
+      "essays": [],
+      "interviews": []
+    },
+    {
+      "#": 21,
+      "Tier": "Safety",
+      "University": "FLAME University",
+      "Country": "India",
+      "Programme": "Economics (BA)",
+      "Key Deadline": "Rolling – Apply ASAP",
+      "Application Type": "Direct application | SOP + Interview",
+      "Entry Requirements": "IB 28+ | Holistic | SOP + Interview",
+      "Scholarship / Aid": "Merit scholarships up to 50% tuition | Need-based aid available",
+      "Tuition/yr": "~₹8.75L/yr tuition (total ~₹11.45L)",
+      "Tests": "No SAT; IB + SOP",
+      "Status": "Not Started",
+      "Priority": "Low",
+      "Aid Policy": "Merit + Need-Based",
+      "App Platform": "Direct – FLAME Portal",
+      "STEM OPT": "N/A (IN)",
+      "Interview?": "Sometimes",
+      "Days Until Deadline": "353 days",
+      "App Completion %": "Not Started",
+      "Decision Date": "Rolling",
+      "Schol. Deadline": "Rolling",
+      "Notes": "Rolling admissions. Need-based fin aid available.",
+      "id": "flame-university",
+      "cost": {
+        "#": 21,
+        "University": "FLAME University",
+        "Tier": "Safety",
+        "Country": "India",
+        "Currency": "INR",
+        "Tuition/yr (₹L)": 8.75,
+        "Living Costs/yr (₹L)": 3,
+        "Other Fees/yr (₹L)": 0.8,
+        "TOTAL Annual Cost (₹L)": 12.55,
+        "4-Year Total (₹L)": 50.2,
+        "Application Fee (₹)": 1500,
+        "Best-Case Annual Cost (₹L)": 6.3,
+        "4-Year Best-Case (₹L)": 25.2,
+        "Scholarship / Aid Notes": "Merit scholarships up to 50% tuition | Need-based aid available | Rolling applications",
+        "Aid Policy": "Merit + Need-Based"
+      },
+      "sat": null,
+      "links": {
+        "apply": "https://www.flame.edu.in/admissions/apply-now",
+        "course": "https://www.flame.edu.in/academics/undergraduate/ba-economics",
+        "aid": "https://www.flame.edu.in/admissions/scholarships",
+        "note": "Rolling admissions – apply early for best scholarship. Great student city (Pune)."
+      },
+      "essays": [],
+      "interviews": [
+        {
+          "University": "FLAME University",
+          "Date": "TBD",
+          "Format": "TBD",
+          "Prep Status": null,
+          "Outcome": null,
+          "Interviewer": null,
+          "Notes": "May be requested – check portal"
+        }
+      ]
+    }
+  ],
+  "essays": [
+    {
+      "University": "Common App Personal Statement",
+      "Tier": "All US Schools",
+      "Essay / Prompt": "Personal Statement (650 words)",
+      "Word Limit": "650",
+      "Key Themes": "Your defining story: Learnable origin / Emily Dickinson journey / bridging quant + creativity.",
+      "Draft Status": "Not Started",
+      "Notes & Links": "Sent to Yale, Wharton, UCLA, Duke, Cornell, Michigan, Emory. START HERE FIRST."
+    },
+    {
+      "University": "Yale University",
+      "Tier": "Reach",
+      "Essay / Prompt": "Why Yale? (125 words)",
+      "Word Limit": "125",
+      "Key Themes": "Specific Yale Math-Econ faculty, residential college system, research culture",
+      "Draft Status": "Not Started",
+      "Notes & Links": "https://admissions.yale.edu/essay-topics"
+    },
+    {
+      "University": "Yale University",
+      "Tier": "Reach",
+      "Essay / Prompt": "Long Essay – 1 of 3 prompts (400 words)",
+      "Word Limit": "400",
+      "Key Themes": "Learnable origin OR Emily Dickinson poetry OR Erudite Summit public policy",
+      "Draft Status": "Not Started",
+      "Notes & Links": "Choose ONE. Show depth, not breadth."
+    },
+    {
+      "University": "Yale University",
+      "Tier": "Reach",
+      "Essay / Prompt": "Short Answers × 5 (50-200 words each)",
+      "Word Limit": "50–200 ea",
+      "Key Themes": "STEM-Econ curiosity, Learnable community, books/writing, residential college",
+      "Draft Status": "Not Started",
+      "Notes & Links": "Most short answers of any school – budget 2-3 weeks."
+    },
+    {
+      "University": "UPenn – Wharton",
+      "Tier": "Reach",
+      "Essay / Prompt": "Why Wharton? (500 words)",
+      "Word Limit": "500",
+      "Key Themes": "Wharton BS Econ + STEM, specific concentrations, Learnable scale-up vision",
+      "Draft Status": "Not Started",
+      "Notes & Links": "https://undergrad.wharton.upenn.edu/wharton-experience/admissions/"
+    },
+    {
+      "University": "All UC Campuses",
+      "Tier": "Reach",
+      "Essay / Prompt": "UC PIQ #1 – Leadership (350 words)",
+      "Word Limit": "350",
+      "Key Themes": "Learnable founder story – 2,000+ kids, partnerships, global award, policy forum",
+      "Draft Status": "Not Started",
+      "Notes & Links": "4 PIQs shared across ALL 6 UC campuses. Write once, used everywhere."
+    },
+    {
+      "University": "All UC Campuses",
+      "Tier": "Reach",
+      "Essay / Prompt": "UC PIQ #2 – Creative Talent (350 words)",
+      "Word Limit": "350",
+      "Key Themes": "Published author – 3 books, Emily Dickinson Award, TEDx speaker, writing journey",
+      "Draft Status": "Not Started",
+      "Notes & Links": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/personal-insight-questions.html"
+    },
+    {
+      "University": "All UC Campuses",
+      "Tier": "Reach",
+      "Essay / Prompt": "UC PIQ #3 – Greatest Skill (350 words)",
+      "Word Limit": "350",
+      "Key Themes": "Research publication + STEM-Econ academic passion, quant mindset",
+      "Draft Status": "Not Started",
+      "Notes & Links": "Choose 4 of 8 PIQ prompts that best showcase your profile."
+    },
+    {
+      "University": "All UC Campuses",
+      "Tier": "Reach",
+      "Essay / Prompt": "UC PIQ #4 – Community/Opportunity (350 words)",
+      "Word Limit": "350",
+      "Key Themes": "Learnable + visually impaired community / Erudite Summit impact",
+      "Draft Status": "Not Started",
+      "Notes & Links": "All 4 PIQs used simultaneously for all 6 UC campuses."
+    },
+    {
+      "University": "Duke University",
+      "Tier": "Reach",
+      "Essay / Prompt": "Why Duke? (250 words)",
+      "Word Limit": "250",
+      "Key Themes": "Duke Econ BS curriculum, Financial Econ concentration, Bass Connections research",
+      "Draft Status": "Not Started",
+      "Notes & Links": "https://admissions.duke.edu/apply/"
+    },
+    {
+      "University": "Cornell – Dyson",
+      "Tier": "Reach",
+      "Essay / Prompt": "Why Dyson? (650 words)",
+      "Word Limit": "650",
+      "Key Themes": "Dyson AEM econ+management+STEM blend, Learnable as business case",
+      "Draft Status": "Not Started",
+      "Notes & Links": "https://dyson.cornell.edu/programs/undergraduate/how-to-apply/application-requirements/"
+    },
+    {
+      "University": "NUS – DSE",
+      "Tier": "Reach",
+      "Essay / Prompt": "Personal Statement / SOP",
+      "Word Limit": "Open",
+      "Key Themes": "DSE interdisciplinary appeal, data + econ for social impact, Singapore finance hub",
+      "Draft Status": "Not Started",
+      "Notes & Links": "https://chs.nus.edu.sg/programmes/dse/"
+    },
+    {
+      "University": "University of Michigan",
+      "Tier": "Realistic Reach",
+      "Essay / Prompt": "Why Michigan? (100 words)",
+      "Word Limit": "100",
+      "Key Themes": "LSA Econ BS STEM, research opportunities, Ann Arbor community",
+      "Draft Status": "Not Started",
+      "Notes & Links": "https://lsa.umich.edu/lsa/prospective-students/undergraduate/admissions/undergraduate-application.html"
+    },
+    {
+      "University": "NTU – Economics",
+      "Tier": "Realistic Reach",
+      "Essay / Prompt": "Personal Essay (NTU direct)",
+      "Word Limit": "Open",
+      "Key Themes": "NTU quant econ, Singapore finance hub, Learnable social entrepreneurship",
+      "Draft Status": "Not Started",
+      "Notes & Links": "https://www.ntu.edu.sg/admissions/undergraduate/admission-guide"
+    },
+    {
+      "University": "Emory University",
+      "Tier": "Target",
+      "Essay / Prompt": "Why Emory? (150 words)",
+      "Word Limit": "150",
+      "Key Themes": "Emory STEM-Econ, Oxford College option, Atlanta finance/tech hub",
+      "Draft Status": "Not Started",
+      "Notes & Links": "https://apply.emory.edu/majors/economics.html"
+    },
+    {
+      "University": "SMU – Economics",
+      "Tier": "Target",
+      "Essay / Prompt": "Personal Statement + Interview Prep",
+      "Word Limit": "Open",
+      "Key Themes": "SMU city campus, finance culture, Learnable entrepreneurship, Singapore biz ecosystem",
+      "Draft Status": "Not Started",
+      "Notes & Links": "SMU requires an INTERVIEW – prepare separately."
+    },
+    {
+      "University": "Ashoka University",
+      "Tier": "Safety",
+      "Essay / Prompt": "Statement of Purpose (Ashoka-specific)",
+      "Word Limit": "Open",
+      "Key Themes": "Why liberal arts, why Ashoka, Learnable alignment with Ashoka's mission",
+      "Draft Status": "Not Started",
+      "Notes & Links": "https://application.ashoka.edu.in/ — Round 1 (Nov 2026) = best scholarship odds"
+    }
+  ],
+  "interviews": [
+    {
+      "University": "SMU – Economics",
+      "Date": "TBD",
+      "Format": "Video – SMU Panel",
+      "Prep Status": "Research SMU",
+      "Outcome": null,
+      "Interviewer": null,
+      "Notes": "Required – book slot via SMU portal"
+    },
+    {
+      "University": "Ashoka University",
+      "Date": "TBD",
+      "Format": "Online Video",
+      "Prep Status": "Research Ashoka",
+      "Outcome": null,
+      "Interviewer": null,
+      "Notes": "Required for scholarship & admission"
+    },
+    {
+      "University": "FLAME University",
+      "Date": "TBD",
+      "Format": "TBD",
+      "Prep Status": null,
+      "Outcome": null,
+      "Interviewer": null,
+      "Notes": "May be requested – check portal"
+    },
+    {
+      "University": "Yale University",
+      "Date": "TBD",
+      "Format": "Alumni Interview",
+      "Prep Status": null,
+      "Outcome": null,
+      "Interviewer": null,
+      "Notes": "Optional but highly recommended"
+    },
+    {
+      "University": "Duke University",
+      "Date": "TBD",
+      "Format": "Alumni Interview",
+      "Prep Status": null,
+      "Outcome": null,
+      "Interviewer": null,
+      "Notes": "Optional – often offered"
+    },
+    {
+      "University": "Cornell – Dyson",
+      "Date": "TBD",
+      "Format": "Alumni Interview",
+      "Prep Status": null,
+      "Outcome": null,
+      "Interviewer": null,
+      "Notes": "Optional – request via interviewer DB"
+    }
+  ],
+  "activities": [
+    {
+      "Activity / Honor Name": "Learnable",
+      "Organisation": "Own Organisation",
+      "Position & Status": "Founder  |  May 2025 – Present",
+      "Description (150 chars for Common App)": "Founded India's first accessible EdTech platform for visually impaired youth. Partnerships with Youth for Jobs & National Association of the Blind. 2,000+ children taught coding & English.",
+      "Skills Applied": "Social entrepreneurship, curriculum design, public policy, inclusion advocacy",
+      "Impact & Key Outcomes": "2,000+ visually impaired kids | 2 national org partnerships | India's first blind-youth-led public policy forum | Global Winner – Global Student Cognitive Challenge"
+    },
+    {
+      "Activity / Honor Name": "Erudite Summit",
+      "Organisation": "Learnable",
+      "Position & Status": "Head of Editorial  |  Present",
+      "Description (150 chars for Common App)": "Head of Editorial for India's first nationwide blind-youth-led journalism & public policy summit, organised under Learnable.",
+      "Skills Applied": "Editorial leadership, event management, journalism, inclusion advocacy",
+      "Impact & Key Outcomes": "First-of-its-kind national event bridging journalism + public policy for visually impaired youth."
+    },
+    {
+      "Activity / Honor Name": "CHIREC School Newspaper",
+      "Organisation": "CHIREC International School",
+      "Position & Status": "Journalist (5 yrs) → Editor-in-Chief (1 yr)",
+      "Description (150 chars for Common App)": "Journalist for 5 years, then led the full editorial team as Editor-in-Chief in the final year.",
+      "Skills Applied": "Investigative journalism, editorial leadership, writing, team management",
+      "Impact & Key Outcomes": "Best Journalist Award × 4 | Led entire editorial team | 6-year commitment to school's media identity"
+    },
+    {
+      "Activity / Honor Name": "Published Author & Speaker",
+      "Organisation": "Self / TEDx / Deloitte",
+      "Position & Status": "Author | TEDx Speaker | Deloitte Speaker",
+      "Description (150 chars for Common App)": "Published 3 books – 2 available worldwide, 1 won the Emily Dickinson Award. TEDx talk at ISH. Deloitte speaker.",
+      "Skills Applied": "Creative writing, literary research, public speaking, storytelling",
+      "Impact & Key Outcomes": "Emily Dickinson Award winner | 2 books available globally | TEDx at ISH | Deloitte speaker"
+    },
+    {
+      "Activity / Honor Name": "Serapy",
+      "Organisation": "Serapy (Mental Health NGO)",
+      "Position & Status": "Head of Content  |  3 Years  |  Present",
+      "Description (150 chars for Common App)": "Led content strategy for a youth mental health NGO for 3 years – campaigns, articles, educational material.",
+      "Skills Applied": "Content strategy, mental health communication, copywriting, campaign management",
+      "Impact & Key Outcomes": "3 years leading youth-focused mental health awareness content for a national NGO"
+    },
+    {
+      "Activity / Honor Name": "PRISM",
+      "Organisation": "PRISM",
+      "Position & Status": "Head of Content (Yr 1) → President (Yr 2)  |  Present",
+      "Description (150 chars for Common App)": "Led content in Year 1, then led the entire organisation as President in Year 2.",
+      "Skills Applied": "Content leadership, organisational management, strategic planning",
+      "Impact & Key Outcomes": "Scaled from content lead to President; drove organisational strategy and growth"
+    },
+    {
+      "Activity / Honor Name": "Aerio",
+      "Organisation": "Aerio",
+      "Position & Status": "Head of Content  |  4 Years  |  Present",
+      "Description (150 chars for Common App)": "Led content creation, strategy, and editorial direction for 4 consecutive years.",
+      "Skills Applied": "Long-term content leadership, editorial strategy, team collaboration",
+      "Impact & Key Outcomes": "4 years of sustained content leadership"
+    },
+    {
+      "Activity / Honor Name": "School Prefect & Deputy Head Prefect",
+      "Organisation": "CHIREC International School",
+      "Position & Status": "Prefect (4 yrs) → Deputy Head Prefect  [Ended]",
+      "Description (150 chars for Common App)": "Prefect for 4 years, then Deputy Head Prefect – ran poetry/debate competitions; hosted CHIREC's first literary & cultural festival (400+ participants).",
+      "Skills Applied": "Leadership, event management, peer mentorship, public speaking",
+      "Impact & Key Outcomes": "Hosted CHIREC's first literary & cultural fest (400+ participants) | 4 years of institutional leadership"
+    },
+    {
+      "Activity / Honor Name": "Research Publication",
+      "Organisation": "SRNN – Social Research Network",
+      "Position & Status": "Independent Researcher  |  Present",
+      "Description (150 chars for Common App)": "Independently conducted and published academic research through SRNN.",
+      "Skills Applied": "Research methodology, academic writing, critical analysis",
+      "Impact & Key Outcomes": "Published peer-recognised research paper on SRNN | Demonstrates independent scholarly capability"
+    },
+    {
+      "Activity / Honor Name": "TEDx – International School of Hyderabad",
+      "Organisation": "TEDx ISH",
+      "Position & Status": "Speaker",
+      "Description (150 chars for Common App)": "Delivered a TEDx talk on the power of literature and the writing journey.",
+      "Skills Applied": "Public speaking, storytelling, audience engagement",
+      "Impact & Key Outcomes": "Selected as TEDx speaker – reached local and online audience"
+    }
+  ],
+  "honors": [
+    {
+      "Honor / Award Name": "Emily Dickinson Award",
+      "Awarding Body": "Poetry Foundation",
+      "Level / Recognition": "Winner",
+      "Description": "Won the Emily Dickinson Award for published book.",
+      "Why It Matters": "International literary recognition.",
+      "None": null
+    },
+    {
+      "Honor / Award Name": "Best Journalist Award × 4",
+      "Awarding Body": "CHIREC International School",
+      "Level / Recognition": "4× Recipient",
+      "Description": "Awarded Best Journalist four consecutive times.",
+      "Why It Matters": "Top recognition 4+ consecutive years.",
+      "None": null
+    },
+    {
+      "Honor / Award Name": "Global Winner – Global Student Cognitive Challenge",
+      "Awarding Body": "Global Student Cognitive Challenge",
+      "Level / Recognition": "Global Winner",
+      "Description": "Won global prize for work with Learnable.",
+      "Why It Matters": "Global-level recognition for Learnable's impact.",
+      "None": null
+    },
+    {
+      "Honor / Award Name": "WEC Highest Distinction",
+      "Awarding Body": "World Educators Convention",
+      "Level / Recognition": "Highest Distinction",
+      "Description": "Awarded Highest Distinction at WEC.",
+      "Why It Matters": "Highest tier recognition at international convention.",
+      "None": null
+    },
+    {
+      "Honor / Award Name": "Ashoka Young Scholars Program",
+      "Awarding Body": "Ashoka University",
+      "Level / Recognition": "Selectee",
+      "Description": "Selected as Ashoka Young Scholar – global social-impact fellowship.",
+      "Why It Matters": "Competitive fellowship recognising Learnable.",
+      "None": null
+    },
+    {
+      "Honor / Award Name": "SRNN Research Publication",
+      "Awarding Body": "SRNN",
+      "Level / Recognition": "Published Author",
+      "Description": "Published independent academic research on SRNN.",
+      "Why It Matters": "Peer-recognised research publication.",
+      "None": null
+    },
+    {
+      "Honor / Award Name": "3rd Place – Spanish Olympiad",
+      "Awarding Body": "Spanish Olympiad",
+      "Level / Recognition": "3rd Place",
+      "Description": "3rd place in Spanish Language Olympiad.",
+      "Why It Matters": "Demonstrates multilingual aptitude.",
+      "None": null
+    }
+  ],
+  "audit": [
+    {
+      "#": 1,
+      "University": "Yale",
+      "Field checked": "Tuition / yr",
+      "ChatGPT / tracker value": "~₹55.1L (~$65,500)",
+      "Verdict": "❌ Wrong",
+      "Verified correct value": "2026-27 tuition is $72,500 (full cost of attendance ~$98,000). Student figure ~$7k low.",
+      "Official source": "https://finaid.yale.edu/"
+    },
+    {
+      "#": 2,
+      "University": "Yale",
+      "Field checked": "Application type",
+      "ChatGPT / tracker value": "Nov 1 REA + Jan 2 RD; can't apply ED/EA elsewhere",
+      "Verdict": "✅ Correct",
+      "Verified correct value": "Single-Choice (Restrictive) Early Action Nov 1 (non-binding) + RD Jan 2. Restriction confirmed.",
+      "Official source": "https://admissions.yale.edu/"
+    },
+    {
+      "#": 3,
+      "University": "Yale",
+      "Field checked": "Test policy",
+      "ChatGPT / tracker value": "SAT Required",
+      "Verdict": "✅ Correct",
+      "Verified correct value": "Test-required for Fall 2027 entry (SAT or ACT). Yale ended test-flexible May 2026.",
+      "Official source": "https://admissions.yale.edu/standardized-testing"
+    },
+    {
+      "#": 4,
+      "University": "Yale",
+      "Field checked": "Intl financial aid",
+      "ChatGPT / tracker value": "Need-blind, 100% need met, no loans",
+      "Verdict": "✅ Correct",
+      "Verified correct value": "Confirmed need-blind for international applicants; meets 100% need without loans.",
+      "Official source": "https://admissions.yale.edu/"
+    },
+    {
+      "#": 5,
+      "University": "Yale",
+      "Field checked": "SAT 25-75",
+      "ChatGPT / tracker value": "1500-1580",
+      "Verdict": "⚠️ Approximate",
+      "Verified correct value": "Yale publishes score bands not a single composite; Class of 2029 ~ EBRW 760-800 / Math 760-800. ~1500-1580 is a fair estimate.",
+      "Official source": "https://admissions.yale.edu/"
+    },
+    {
+      "#": 6,
+      "University": "Yale",
+      "Field checked": "Degree note",
+      "ChatGPT / tracker value": "Economics & Math (BA)",
+      "Verdict": "ℹ️ Note",
+      "Verified correct value": "Correct it is a BA; Yale Economics is not formally STEM-CIP designated (no STEM OPT advantage).",
+      "Official source": "https://economics.yale.edu/undergraduate"
+    },
+    {
+      "#": 7,
+      "University": "UPenn - Wharton",
+      "Field checked": "STEM designation",
+      "ChatGPT / tracker value": "Economics BS - STEM",
+      "Verdict": "❌ Misleading",
+      "Verified correct value": "Wharton BS-Econ is NOT automatically STEM. Only specific concentrations are STEM (Finance, Statistics, Business Analytics, BEPP, OIDD, etc.). Must pick a STEM concentration for 24-mo OPT.",
+      "Official source": "https://undergrad.wharton.upenn.edu/academics/concentrations/"
+    },
+    {
+      "#": 8,
+      "University": "UPenn - Wharton",
+      "Field checked": "Tuition / yr",
+      "ChatGPT / tracker value": "~₹62L (~$67,000)",
+      "Verdict": "⚠️ Close",
+      "Verified correct value": "2026-27 tuition $65,670 (+ fees; total charges ~$94,600). ~$1.3k high.",
+      "Official source": "https://srfs.upenn.edu/"
+    },
+    {
+      "#": 9,
+      "University": "UPenn - Wharton",
+      "Field checked": "Application type",
+      "ChatGPT / tracker value": "Nov 1 ED I binding + Jan 5 RD",
+      "Verdict": "✅ Correct",
+      "Verified correct value": "ED Nov 1 (binding) + RD Jan 5. Penn has one ED round (not ED I/II).",
+      "Official source": "https://admissions.upenn.edu/admissions-and-financial-aid/"
+    },
+    {
+      "#": 10,
+      "University": "UPenn - Wharton",
+      "Field checked": "Test policy",
+      "ChatGPT / tracker value": "SAT Required",
+      "Verdict": "✅ Correct",
+      "Verified correct value": "Penn requires SAT or ACT (testing reinstated).",
+      "Official source": "https://admissions.upenn.edu/admissions-and-financial-aid/what-penn-looks-for/"
+    },
+    {
+      "#": 11,
+      "University": "UPenn - Wharton",
+      "Field checked": "Intl financial aid",
+      "ChatGPT / tracker value": "Need-AWARE, very limited",
+      "Verdict": "✅ Correct",
+      "Verified correct value": "Need-aware for international applicants; must apply for aid at admission (can't add later).",
+      "Official source": "https://srfs.upenn.edu/"
+    },
+    {
+      "#": 12,
+      "University": "UPenn - Wharton",
+      "Field checked": "SAT 25-75",
+      "ChatGPT / tracker value": "1490-1570",
+      "Verdict": "⚠️ Partly off",
+      "Verified correct value": "Class of 2029 ~ EBRW 740-770 / Math 770-800 -> ~1510-1570. Low end ~20 pts low.",
+      "Official source": "https://www.upenn.edu/about/facts"
+    },
+    {
+      "#": 13,
+      "University": "Duke",
+      "Field checked": "Application type / dates",
+      "ChatGPT / tracker value": "Nov 1 ED binding + Jan 2 RD",
+      "Verdict": "❌ Wrong dates",
+      "Verified correct value": "ED is ~Nov 3 and RD is Jan 5 (not Nov 1 / Jan 2). ED binding is correct.",
+      "Official source": "https://admissions.duke.edu/"
+    },
+    {
+      "#": 14,
+      "University": "Duke",
+      "Field checked": "Tuition / yr",
+      "ChatGPT / tracker value": "~₹53.8L (~$64,000)",
+      "Verdict": "❌ Wrong",
+      "Verified correct value": "2026-27 tuition $73,740 (total charges ~$96,600). ~$10k low.",
+      "Official source": "https://financialaid.duke.edu/"
+    },
+    {
+      "#": 15,
+      "University": "Duke",
+      "Field checked": "Test policy",
+      "ChatGPT / tracker value": "SAT Required",
+      "Verdict": "❌ Wrong",
+      "Verified correct value": "Duke is TEST-OPTIONAL for 2026-27 (applies to international students too).",
+      "Official source": "https://admissions.duke.edu/"
+    },
+    {
+      "#": 16,
+      "University": "Duke",
+      "Field checked": "STEM designation",
+      "ChatGPT / tracker value": "Economics BS - STEM",
+      "Verdict": "✅ Correct",
+      "Verified correct value": "Duke BS Economics is STEM (CIP 45.0603) -> 24-mo STEM OPT. (Even the AB is STEM-coded.)",
+      "Official source": "https://econ.duke.edu/undergraduate/"
+    },
+    {
+      "#": 17,
+      "University": "Duke",
+      "Field checked": "Intl financial aid",
+      "ChatGPT / tracker value": "Need-aware",
+      "Verdict": "✅ Correct",
+      "Verified correct value": "Need-aware for a limited number of internationals; meets 100% need once admitted.",
+      "Official source": "https://financialaid.duke.edu/international-students/"
+    },
+    {
+      "#": 18,
+      "University": "Duke",
+      "Field checked": "SAT 25-75",
+      "ChatGPT / tracker value": "1500-1580",
+      "Verdict": "⚠️ Partly off",
+      "Verified correct value": "Official Class of 2029 reported range 1520-1570.",
+      "Official source": "https://admissions.duke.edu/"
+    },
+    {
+      "#": 19,
+      "University": "Cornell - Dyson",
+      "Field checked": "Application type",
+      "ChatGPT / tracker value": "Nov 1 ED + Jan 2 RD",
+      "Verdict": "✅ Correct",
+      "Verified correct value": "ED Nov 1 (binding) + RD Jan 2, per Dyson.",
+      "Official source": "https://dyson.cornell.edu/programs/undergraduate/admissions/"
+    },
+    {
+      "#": 20,
+      "University": "Cornell - Dyson",
+      "Field checked": "Where to apply",
+      "ChatGPT / tracker value": "Apply to Dyson (CALS), not A&S",
+      "Verdict": "⚠️ Imprecise",
+      "Verified correct value": "Apply via Common App selecting 'Cornell SC Johnson College of Business - Dyson.' Dyson is shared between SC Johnson & CALS - 'CALS not A&S' framing is imprecise.",
+      "Official source": "https://dyson.cornell.edu/programs/undergraduate/admissions/"
+    },
+    {
+      "#": 21,
+      "University": "Cornell - Dyson",
+      "Field checked": "Tuition / yr",
+      "ChatGPT / tracker value": "~₹55.4L (~$66,000)",
+      "Verdict": "❌ Wrong",
+      "Verified correct value": "International students pay the ENDOWED rate $73,946 (2026-27). The ~$66k likely confused the NY-resident contract rate, which internationals can't use.",
+      "Official source": "https://finaid.cornell.edu/cost-attend"
+    },
+    {
+      "#": 22,
+      "University": "Cornell - Dyson",
+      "Field checked": "Test policy",
+      "ChatGPT / tracker value": "SAT Required",
+      "Verdict": "✅ Correct",
+      "Verified correct value": "Cornell requires SAT/ACT for Fall 2026+ (testing reinstated).",
+      "Official source": "https://admissions.cornell.edu/"
+    },
+    {
+      "#": 23,
+      "University": "Cornell - Dyson",
+      "Field checked": "Intl financial aid",
+      "ChatGPT / tracker value": "Need-aware",
+      "Verdict": "✅ Correct",
+      "Verified correct value": "Need-aware for internationals; meets 100% need for admitted internationals.",
+      "Official source": "https://finaid.cornell.edu/types-aid/"
+    },
+    {
+      "#": 24,
+      "University": "Cornell - Dyson",
+      "Field checked": "Dyson AEM STEM",
+      "ChatGPT / tracker value": "STEM",
+      "Verdict": "⚠️ Confirm",
+      "Verified correct value": "Dyson AEM is widely STEM-designated, but the exact CIP could not be confirmed on an official Cornell page - confirm with Cornell directly.",
+      "Official source": "https://dyson.cornell.edu/programs/undergraduate/"
+    },
+    {
+      "#": 25,
+      "University": "Cornell - Dyson",
+      "Field checked": "SAT 25-75",
+      "ChatGPT / tracker value": "1450-1560",
+      "Verdict": "⚠️ Unverified",
+      "Verified correct value": "Could not confirm from an official Cornell source (Cornell publishes limited score data).",
+      "Official source": "https://admissions.cornell.edu/"
+    },
+    {
+      "#": 26,
+      "University": "Emory",
+      "Field checked": "STEM / degree",
+      "ChatGPT / tracker value": "Economics BS - STEM",
+      "Verdict": "❌ Wrong (BA not BS)",
+      "Verified correct value": "Emory Economics is a STEM-CERTIFIED BA, not a BS. STEM claim holds; 'BS' is wrong. (Joint Econ-Human Health is NOT STEM.)",
+      "Official source": "https://economics.emory.edu/"
+    },
+    {
+      "#": 27,
+      "University": "Emory",
+      "Field checked": "Tuition / yr",
+      "ChatGPT / tracker value": "~₹50.4L (~$60,000)",
+      "Verdict": "❌ Wrong",
+      "Verified correct value": "2026-27 tuition $70,300 (total charges ~$93,100). ~$10k low.",
+      "Official source": "https://apply.emory.edu/discover/"
+    },
+    {
+      "#": 28,
+      "University": "Emory",
+      "Field checked": "Application type",
+      "ChatGPT / tracker value": "Nov 1 ED I + Jan 1 RD",
+      "Verdict": "✅ Correct",
+      "Verified correct value": "ED I Nov 1, RD Jan 1 (also ED II Jan 1). Applies to Emory College and Oxford.",
+      "Official source": "https://apply.emory.edu/apply/"
+    },
+    {
+      "#": 29,
+      "University": "Emory",
+      "Field checked": "Test policy",
+      "ChatGPT / tracker value": "SAT Required",
+      "Verdict": "❌ Wrong",
+      "Verified correct value": "Emory is TEST-OPTIONAL through the 2026-27 cycle.",
+      "Official source": "https://apply.emory.edu/apply/"
+    },
+    {
+      "#": 30,
+      "University": "Emory",
+      "Field checked": "Intl financial aid",
+      "ChatGPT / tracker value": "Need-aware",
+      "Verdict": "⚠️ Correct + nuance",
+      "Verified correct value": "Need-based aid for a select group of internationals. IMPORTANT: internationals must apply REGULAR DECISION to be considered for need-based aid (not via ED).",
+      "Official source": "https://apply.emory.edu/discover/"
+    },
+    {
+      "#": 31,
+      "University": "Emory",
+      "Field checked": "SAT 25-75",
+      "ChatGPT / tracker value": "1400-1530",
+      "Verdict": "❌ Wrong",
+      "Verified correct value": "~100 pts low. Class of 2029 ~ EBRW 740-770 / Math 760-800 -> ~1500-1570 (Oxford slightly lower).",
+      "Official source": "https://apply.emory.edu/discover/"
+    },
+    {
+      "#": 32,
+      "University": "Emory",
+      "Field checked": "Oxford pathway",
+      "ChatGPT / tracker value": "Oxford College backup",
+      "Verdict": "✅ Correct",
+      "Verified correct value": "Can apply to Oxford College, Emory College, or both; same Emory degree, Oxford students move to Atlanta by junior year.",
+      "Official source": "https://oxford.emory.edu/admission/"
+    },
+    {
+      "#": 33,
+      "University": "UC system (all 6)",
+      "Field checked": "Test policy",
+      "ChatGPT / tracker value": "SAT Optional (+ SAT ranges listed)",
+      "Verdict": "❌ Wrong / misleading",
+      "Verified correct value": "UC is TEST-BLIND - does not consider SAT/ACT at all in admissions or scholarships. 'SAT Optional' and the per-campus SAT ranges should be removed (they are not used in UC admission).",
+      "Official source": "https://admission.universityofcalifornia.edu/admission-requirements/freshman-requirements/"
+    },
+    {
+      "#": 34,
+      "University": "UC system (all 6)",
+      "Field checked": "Filing window",
+      "ChatGPT / tracker value": "Nov 1-30, 2026",
+      "Verdict": "⚠️ Partly off",
+      "Verified correct value": "Filing window OPENS Oct 1; submission deadline Nov 30. (Not Nov 1-30.) One UC app covers all campuses - correct.",
+      "Official source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-freshman/"
+    },
+    {
+      "#": 35,
+      "University": "UC system (all 6)",
+      "Field checked": "Tuition / yr (intl)",
+      "ChatGPT / tracker value": "~₹37L (~$44,000)",
+      "Verdict": "❌ Wrong",
+      "Verified correct value": "2026-27 nonresident tuition ~ $54,858; with campus fees ~$56,700; total budget ~$86,000/yr. ~$44k is outdated (2023-24).",
+      "Official source": "https://admission.universityofcalifornia.edu/tuition-financial-aid/tuition-cost-of-attendance/"
+    },
+    {
+      "#": 36,
+      "University": "UC system (all 6)",
+      "Field checked": "Intl financial aid",
+      "ChatGPT / tracker value": "Very limited / no intl aid",
+      "Verdict": "✅ Correct",
+      "Verified correct value": "Internationals generally ineligible for UC need-based aid and loans; pay full nonresident cost.",
+      "Official source": "https://admission.universityofcalifornia.edu/tuition-financial-aid/types-of-aid/who-can-get-financial-aid"
+    },
+    {
+      "#": 37,
+      "University": "UCLA",
+      "Field checked": "STEM Economics",
+      "ChatGPT / tracker value": "STEM certified Fall 2019",
+      "Verdict": "✅ Correct",
+      "Verified correct value": "UCLA Economics & Business Economics reclassified STEM from Fall 2019 (CIP 45.0603).",
+      "Official source": "https://economics.ucla.edu/"
+    },
+    {
+      "#": 38,
+      "University": "UC Berkeley",
+      "Field checked": "STEM Economics",
+      "ChatGPT / tracker value": "STEM (Quant Econ)",
+      "Verdict": "✅ Correct",
+      "Verified correct value": "Berkeley Economics reclassified STEM (CIP 45.0603) ~2019.",
+      "Official source": "https://www.econ.berkeley.edu/undergrad"
+    },
+    {
+      "#": 39,
+      "University": "UC San Diego",
+      "Field checked": "STEM Economics",
+      "ChatGPT / tracker value": "ONLY Business Econ is STEM",
+      "Verdict": "⚠️ Outdated",
+      "Verified correct value": "Multiple UCSD econ majors are STEM (BA Econ 'EN25', BS Econ, Management Science) - all STEM-OPT eligible, not only Business Econ.",
+      "Official source": "https://economics.ucsd.edu/undergraduate-program/"
+    },
+    {
+      "#": 40,
+      "University": "UC Santa Barbara",
+      "Field checked": "STEM Economics",
+      "ChatGPT / tracker value": "STEM",
+      "Verdict": "⚠️ Confirm per major",
+      "Verified correct value": "Econ & Accounting is confirmed STEM; the plain Economics BA major sheet doesn't state STEM - confirm with UCSB OISS for the specific major.",
+      "Official source": "https://oiss.ucsb.edu/"
+    },
+    {
+      "#": 41,
+      "University": "UC Davis",
+      "Field checked": "STEM Economics",
+      "ChatGPT / tracker value": "STEM, reclassified 2019, CIP 45.0603",
+      "Verdict": "✅ Correct",
+      "Verified correct value": "UC Davis Economics reclassified STEM (CIP 45.0603) in 2019.",
+      "Official source": "https://economics.ucdavis.edu/undergraduate"
+    },
+    {
+      "#": 42,
+      "University": "UC Irvine",
+      "Field checked": "STEM Economics",
+      "ChatGPT / tracker value": "ONLY Quant Econ is STEM",
+      "Verdict": "⚠️ Confirm",
+      "Verified correct value": "Pattern supports Quantitative Economics being the STEM major (vs plain Econ BA), but official econ pages don't state it explicitly - confirm with UCI before relying on it.",
+      "Official source": "https://economics.uci.edu/"
+    },
+    {
+      "#": 43,
+      "University": "U Michigan",
+      "Field checked": "STEM / degree",
+      "ChatGPT / tracker value": "Economics BS - STEM",
+      "Verdict": "❌ Wrong",
+      "Verified correct value": "LSA undergrad Economics is a BA and is NOT STEM-designated (only the grad Master of Applied Economics is STEM). No 24-mo STEM OPT - major flag for a STEM-focused student.",
+      "Official source": "https://lsa.umich.edu/econ/undergraduates/undergraduate-program-overview.html"
+    },
+    {
+      "#": 44,
+      "University": "U Michigan",
+      "Field checked": "Application type",
+      "ChatGPT / tracker value": "Nov 1 EA (non-binding) + Feb 1 RD",
+      "Verdict": "✅ Correct + note",
+      "Verified correct value": "EA Nov 1 non-binding + RD Feb 1 confirmed. Note Michigan now ALSO offers a binding Early Decision (also Nov 1) - distinguish the two.",
+      "Official source": "https://admissions.umich.edu/apply/first-year-applicants/application-dates-deadlines"
+    },
+    {
+      "#": 45,
+      "University": "U Michigan",
+      "Field checked": "Test policy",
+      "ChatGPT / tracker value": "SAT Required",
+      "Verdict": "❌ Wrong",
+      "Verified correct value": "Michigan is TEST-OPTIONAL for 2026-27.",
+      "Official source": "https://admissions.umich.edu/apply/first-year-applicants/testing"
+    },
+    {
+      "#": 46,
+      "University": "U Michigan",
+      "Field checked": "Tuition / yr (intl)",
+      "ChatGPT / tracker value": "~₹46L (~$58,000)",
+      "Verdict": "❌ Wrong",
+      "Verified correct value": "2025-26 nonresident tuition & fees ~ $63,962 (lower div) / $68,444 (upper div); total budget ~$84-89k. 2026-27 higher. ~$58k too low.",
+      "Official source": "https://finaid.umich.edu/cost-of-attendance/"
+    },
+    {
+      "#": 47,
+      "University": "U Michigan",
+      "Field checked": "SAT 25-75",
+      "ChatGPT / tracker value": "1360-1530",
+      "Verdict": "✅ Approx",
+      "Verified correct value": "Consistent with reported enrolled middle-50% (~1360-1530); descriptive only since test-optional.",
+      "Official source": "https://admissions.umich.edu/apply/first-year-applicants/class-profile"
+    },
+    {
+      "#": 48,
+      "University": "Singapore (all 3)",
+      "Field checked": "ASEAN Scholarship eligibility",
+      "ChatGPT / tracker value": "ASEAN Scholarship listed for NUS/NTU/SMU",
+      "Verdict": "❌ Wrong for India",
+      "Verified correct value": "ASEAN Undergraduate Scholarship is for ASEAN nationals only. India is NOT in ASEAN - student is INELIGIBLE at all three. Remove 'ASEAN' everywhere.",
+      "Official source": "https://www.moe.gov.sg/financial-matters/awards-scholarships"
+    },
+    {
+      "#": 49,
+      "University": "Singapore (all 3)",
+      "Field checked": "Tuition Grant bond",
+      "ChatGPT / tracker value": "3-yr SG work bond",
+      "Verdict": "✅ Correct",
+      "Verified correct value": "MOE Tuition Grant requires a 3-year bond with a Singapore-registered employer after graduation.",
+      "Official source": "https://www.moe.gov.sg/financial-matters/tuition-grant-scheme"
+    },
+    {
+      "#": 50,
+      "University": "NUS - DSE",
+      "Field checked": "With-Grant tuition",
+      "ChatGPT / tracker value": "~SGD 9,350/yr (~₹14L)",
+      "Verdict": "❌ Wrong",
+      "Verified correct value": "SGD 9,350 is the Singapore CITIZEN rate. For Indian (All-Other-International) the subsidised fee is ~ SGD 21,400/yr.",
+      "Official source": "https://www.nus.edu.sg/registrar/administrative-policies-procedures/undergraduate/undergraduate-fees"
+    },
+    {
+      "#": 51,
+      "University": "NUS - DSE",
+      "Field checked": "Without-Grant tuition",
+      "ChatGPT / tracker value": "~SGD 31,000/yr",
+      "Verdict": "❌ Wrong",
+      "Verified correct value": "Non-subsidised fee ~ SGD 36,650/yr (Humanities & Sciences band).",
+      "Official source": "https://www.nus.edu.sg/registrar/administrative-policies-procedures/undergraduate/undergraduate-fees"
+    },
+    {
+      "#": 52,
+      "University": "NUS - DSE",
+      "Field checked": "Application timing",
+      "ChatGPT / tracker value": "~March 2027",
+      "Verdict": "❌ Wrong",
+      "Verified correct value": "International cycle opens ~early Dec and CLOSES ~23 Feb. March is too late.",
+      "Official source": "https://www.nus.edu.sg/oam/apply-to-nus/international-qualifications"
+    },
+    {
+      "#": 53,
+      "University": "NUS - DSE",
+      "Field checked": "Scholarship name",
+      "ChatGPT / tracker value": "NUS Merit Scholarship",
+      "Verdict": "❌ Wrong",
+      "Verified correct value": "'NUS Merit' is Singapore-citizen-only. International equivalents: NUS Global Merit / Science & Technology Undergraduate Scholarship.",
+      "Official source": "https://www.nus.edu.sg/oam/scholarships/scholarships-(freshmen)"
+    },
+    {
+      "#": 54,
+      "University": "NUS - DSE",
+      "Field checked": "Math requirement",
+      "ChatGPT / tracker value": "HL Math AA/AB",
+      "Verdict": "⚠️ Typo",
+      "Verified correct value": "IB Math courses are AA and AI (there is no 'AB'). NUS wants HL Math / Math AA.",
+      "Official source": "https://chs.nus.edu.sg/programmes/dse/"
+    },
+    {
+      "#": 55,
+      "University": "NUS - DSE",
+      "Field checked": "Programme",
+      "ChatGPT / tracker value": "Data Science & Economics BSc",
+      "Verdict": "✅ Correct",
+      "Verified correct value": "BSc (Hons) Data Science & Economics under College of Humanities & Sciences.",
+      "Official source": "https://chs.nus.edu.sg/programmes/dse/"
+    },
+    {
+      "#": 56,
+      "University": "NTU - Economics",
+      "Field checked": "With-Grant tuition",
+      "ChatGPT / tracker value": "~SGD 8,950/yr (~₹13L)",
+      "Verdict": "❌ Wrong",
+      "Verified correct value": "SGD 8,950 is the Citizen rate. Indian (All-Other-International) subsidised fee ~ SGD 20,000/yr; non-subsidised ~ SGD 36,250.",
+      "Official source": "https://www.ntu.edu.sg/admissions/undergraduate/financial-matters/tuition-fees"
+    },
+    {
+      "#": 57,
+      "University": "NTU - Economics",
+      "Field checked": "Programme title",
+      "ChatGPT / tracker value": "Economics BSc",
+      "Verdict": "⚠️ Inaccurate",
+      "Verified correct value": "NTU's standalone Economics degree is a Bachelor of Social Sciences (Hons) in Economics - not a BSc. (A separate BSc Economics & Data Science exists.)",
+      "Official source": "https://www.ntu.edu.sg/sss/admissions/"
+    },
+    {
+      "#": 58,
+      "University": "NTU - Economics",
+      "Field checked": "Deadline",
+      "ChatGPT / tracker value": "~March 2027",
+      "Verdict": "✅ Approx",
+      "Verified correct value": "International application closes ~15 March; opens earlier (~Oct).",
+      "Official source": "https://www.ntu.edu.sg/admissions/undergraduate/admission-guide"
+    },
+    {
+      "#": 59,
+      "University": "SMU - Economics",
+      "Field checked": "With-Grant tuition",
+      "ChatGPT / tracker value": "~SGD 9,400/yr (~₹12L)",
+      "Verdict": "❌ Wrong",
+      "Verified correct value": "SGD ~11,550 is the Citizen rate. Indian (Other-International) subsidised fee ~ SGD 26,200/yr; non-subsidised ~ SGD 47,700.",
+      "Official source": "https://admissions.smu.edu.sg/financing-your-studies/tuition-fees"
+    },
+    {
+      "#": 60,
+      "University": "SMU - Economics",
+      "Field checked": "Programme / interview",
+      "ChatGPT / tracker value": "BSc Economics; interview required",
+      "Verdict": "✅ Correct",
+      "Verified correct value": "Bachelor of Science (Economics); shortlisted applicants attend interview/test (Mar-May). Apply by ~19 Mar, scores by ~31 Mar.",
+      "Official source": "https://admissions.smu.edu.sg/programmes/economics"
+    },
+    {
+      "#": 61,
+      "University": "SMU - Economics",
+      "Field checked": "Scholarship",
+      "ChatGPT / tracker value": "Global Impact Scholarship",
+      "Verdict": "✅ Correct",
+      "Verified correct value": "Global Impact Scholarship Award is open to international students. (ASEAN one is not - see above.)",
+      "Official source": "https://admissions.smu.edu.sg/scholarships-awards/global-impact-scholarship-award"
+    },
+    {
+      "#": 62,
+      "University": "U Melbourne",
+      "Field checked": "Tuition / yr",
+      "ChatGPT / tracker value": "~AUD 48,000 (~₹26.4L)",
+      "Verdict": "❌ Wrong",
+      "Verified correct value": "2026 BCom international fee ~ AUD 55,000-58,000/yr (BCom Hons ~AUD 57,856). ~48k too low.",
+      "Official source": "https://study.unimelb.edu.au/find/courses/undergraduate/bachelor-of-commerce/fees/"
+    },
+    {
+      "#": 63,
+      "University": "U Melbourne",
+      "Field checked": "Scholarship",
+      "ChatGPT / tracker value": "Melbourne Intl UG Scholarship - up to 100% tuition + stipend",
+      "Verdict": "❌ Wrong",
+      "Verified correct value": "It is a fee remission only (no stipend): 25% pre-2027, dropping to 20% fee sponsorship from 2027. Not 100%+stipend.",
+      "Official source": "https://scholarships.unimelb.edu.au/awards/melbourne-international-undergraduate-scholarship"
+    },
+    {
+      "#": 64,
+      "University": "U Melbourne",
+      "Field checked": "Intake / IELTS",
+      "ChatGPT / tracker value": "July 2027 / Sem 2; IELTS 6.5+",
+      "Verdict": "✅ Correct",
+      "Verified correct value": "BCom has Feb and July intakes (July/Sem-2 valid). IELTS 6.5 (no band <6.0). Exact 31 May deadline unconfirmed.",
+      "Official source": "https://study.unimelb.edu.au/find/courses/undergraduate/bachelor-of-commerce/entry-requirements/"
+    },
+    {
+      "#": 65,
+      "University": "U Sydney",
+      "Field checked": "Tuition / yr",
+      "ChatGPT / tracker value": "~AUD 42,000 (~₹23.1L)",
+      "Verdict": "❌ Wrong",
+      "Verified correct value": "Bachelor of Economics 2027 indicative Year-1 fee = AUD 59,100. Too low.",
+      "Official source": "https://www.sydney.edu.au/courses/courses/uc/bachelor-of-economics.html"
+    },
+    {
+      "#": 66,
+      "University": "U Sydney",
+      "Field checked": "Scholarship",
+      "ChatGPT / tracker value": "Sydney Scholars India Equity Scholarship",
+      "Verdict": "❌ Wrong level",
+      "Verified correct value": "That award is POSTGRADUATE-only. The UG equivalent is the 'Sydney Scholars India Scholarship Program.'",
+      "Official source": "https://www.sydney.edu.au/scholarships/e/sydney-scholars-india-scholarship-program.html"
+    },
+    {
+      "#": 67,
+      "University": "U Sydney",
+      "Field checked": "Scholarship 2",
+      "ChatGPT / tracker value": "Vice-Chancellor's Intl Scholarship",
+      "Verdict": "✅ Correct",
+      "Verified correct value": "Vice-Chancellor's International Scholarships Scheme exists (merit-based, commencing UG/PG).",
+      "Official source": "https://www.sydney.edu.au/scholarships/e/vice-chancellor-international-scholarships-scheme.html"
+    },
+    {
+      "#": 68,
+      "University": "U Sydney",
+      "Field checked": "Intake",
+      "ChatGPT / tracker value": "Says S1 2027 AND S2 Jul (inconsistent)",
+      "Verdict": "⚠️ Fix",
+      "Verified correct value": "Bachelor of Economics has both Semester 1 (Feb/Mar) and Semester 2 (Aug) intakes - pick one; tracker is internally inconsistent.",
+      "Official source": "https://www.sydney.edu.au/courses/courses/uc/bachelor-of-economics.html"
+    },
+    {
+      "#": 69,
+      "University": "UNSW Sydney",
+      "Field checked": "Tuition / yr",
+      "ChatGPT / tracker value": "~AUD 45,000 (~₹24.8L)",
+      "Verdict": "⚠️ Likely low",
+      "Verified correct value": "UNSW BCom international indicative fee ~AUD 50,000+/yr (2026/27). Confirm on degree page.",
+      "Official source": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-commerce"
+    },
+    {
+      "#": 70,
+      "University": "UNSW Sydney",
+      "Field checked": "Scholarship",
+      "ChatGPT / tracker value": "International Student Award - 20% tuition; Scientia",
+      "Verdict": "✅ Correct",
+      "Verified correct value": "All Indian students eligible for the 20% International Student Award (every year). Scientia = full tuition or AUD 20,000/yr.",
+      "Official source": "https://www.unsw.edu.au/study/undergraduate/"
+    },
+    {
+      "#": 71,
+      "University": "UNSW Sydney",
+      "Field checked": "Term structure",
+      "ChatGPT / tracker value": "Term 1 2027 (trimester)",
+      "Verdict": "✅ Correct",
+      "Verified correct value": "UNSW uses trimesters (Term 1 ~Feb, 2 ~May/Jun, 3 ~Sep); early offers Dec/Jan consistent.",
+      "Official source": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-commerce"
+    },
+    {
+      "#": 72,
+      "University": "Monash",
+      "Field checked": "Tuition / yr",
+      "ChatGPT / tracker value": "~AUD 40,000 (~₹22L)",
+      "Verdict": "❌ Wrong",
+      "Verified correct value": "Monash BCom (B2001) international fee ~ AUD 52,200/yr (2026). Too low.",
+      "Official source": "https://www.monash.edu/study/courses/find-a-course/commerce-b2001"
+    },
+    {
+      "#": 73,
+      "University": "Monash",
+      "Field checked": "Scholarship",
+      "ChatGPT / tracker value": "Intl Merit Scholarship - up to AUD 10,000/yr",
+      "Verdict": "❌ Value wrong",
+      "Verified correct value": "Monash International Merit Scholarship is AUD 15,000 per annum (for the duration), not 10,000.",
+      "Official source": "https://www.monash.edu/study/fees-scholarships/scholarships/find-a-scholarship/international-merit-5770"
+    },
+    {
+      "#": 74,
+      "University": "Ashoka",
+      "Field checked": "Tuition / yr",
+      "ChatGPT / tracker value": "~₹8L (cost sheet ₹10.74L)",
+      "Verdict": "❌ Wrong",
+      "Verified correct value": "Aug-2025 intake annual tuition = ₹10,22,700; with residence/services total ~₹12.5L/yr. ₹8L is wrong; ~₹10.7L tuition is right.",
+      "Official source": "https://www.ashoka.edu.in/admissions/fee-and-financial-aid/"
+    },
+    {
+      "#": 75,
+      "University": "Ashoka",
+      "Field checked": "Rounds",
+      "ChatGPT / tracker value": "R1 Nov 2026 / R2 Jan / R3 Mar 2027",
+      "Verdict": "⚠️ TBC",
+      "Verified correct value": "Ashoka runs FOUR rounds. 2027-intake dates not yet published - months are a reasonable estimate; mark as 'to be confirmed.'",
+      "Official source": "https://www.ashoka.edu.in/admissions/"
+    },
+    {
+      "#": 76,
+      "University": "Ashoka",
+      "Field checked": "Scholarship",
+      "ChatGPT / tracker value": "Ashoka Scholar Award - up to 100% tuition",
+      "Verdict": "⚠️ Verify name",
+      "Verified correct value": "Ashoka offers up to 100% need-based tuition waivers + merit scholarships (500 announced for 2026 intake). Confirm the exact award name.",
+      "Official source": "https://www.ashoka.edu.in/admissions/financial-aid-and-scholarships/"
+    },
+    {
+      "#": 77,
+      "University": "Ashoka",
+      "Field checked": "SOP + Interview",
+      "ChatGPT / tracker value": "Required",
+      "Verdict": "✅ Correct",
+      "Verified correct value": "Application includes essays/SOP; shortlisted candidates attend a personal interview.",
+      "Official source": "https://www.ashoka.edu.in/admissions/how-to-apply/"
+    },
+    {
+      "#": 78,
+      "University": "FLAME",
+      "Field checked": "Tuition / yr",
+      "ChatGPT / tracker value": "~₹5L",
+      "Verdict": "❌ Wrong",
+      "Verified correct value": "2026 Year-I program (tuition) fee = ₹8,75,000 (rising to ₹10L by Year IV). Total Year-I with lodging ~ ₹11,45,000. ₹5L is ~half actual.",
+      "Official source": "https://www.flame.edu.in/admissions/ug/fees"
+    },
+    {
+      "#": 79,
+      "University": "FLAME",
+      "Field checked": "Admission process",
+      "ChatGPT / tracker value": "Rolling",
+      "Verdict": "⚠️ Partly",
+      "Verified correct value": "Scheduled rounds (not pure rolling). Selection: FEAT aptitude test + essay + personal interview (SAT/ACT can waive FEAT).",
+      "Official source": "https://www.flame.edu.in/admissions/ug/selection-process"
+    },
+    {
+      "#": 80,
+      "University": "FLAME",
+      "Field checked": "Scholarship",
+      "ChatGPT / tracker value": "Merit up to 50% + need-based",
+      "Verdict": "✅ Correct",
+      "Verified correct value": "Merit awards (partial to full waivers) + need-based assistance. 'Up to 50%' actually understates it (full waivers exist).",
+      "Official source": "https://www.flame.edu.in/admissions/scholarships"
+    }
+  ],
+  "bigErrors": [
+    "TUITION IS UNDERSTATED ON ALMOST EVERY SCHOOL. The cost sheet uses old/low figures. Current 2026-27 tuition is materially higher: Yale $72.5k, Penn $65.7k, Duke $73.7k, Cornell $73.9k, Emory $70.3k, UC nonresident ~$54.9k (total ~$86k), Michigan ~$64k+.",
+    "TEST POLICY ERRORS: Duke, Emory and Michigan are TEST-OPTIONAL (not 'SAT required'). The UC system is TEST-BLIND - it ignores SAT entirely, so the SAT ranges listed for UCs are not used in admission.",
+    "STEM MISLABELS: Michigan undergrad Economics is a BA and NOT STEM (no STEM OPT). Wharton BS-Econ is only STEM if you pick a STEM concentration. Emory Econ is a STEM-certified BA, not a 'BS'.",
+    "SINGAPORE FEES WRONG: the 'with-grant' figures are Singapore-CITIZEN rates. As an Indian student Mehek pays the international subsidised rate - roughly 2-3x: NUS ~S$21,400, NTU ~S$20,000, SMU ~S$26,200/yr.",
+    "ASEAN SCHOLARSHIP DOESN'T APPLY: India is not an ASEAN country, so the 'ASEAN scholarship' listed for NUS/NTU/SMU is not available to her. Remove it.",
+    "SCHOLARSHIP ERRORS (Australia): Melbourne's scholarship is a 20% fee remission (not '100% + stipend'); Sydney's 'India Equity' award is postgraduate-only (UG = 'Sydney Scholars India Scholarship Program'); Monash merit award is AUD 15,000/yr (not 10,000).",
+    "DUKE DEADLINES are ~Nov 3 ED / Jan 5 RD (not Nov 1 / Jan 2).",
+    "INDIA FEES low: Ashoka tuition ~₹10.2L (total ~₹12.5L); FLAME tuition ₹8.75L (total ~₹11.45L), not ₹5L."
+  ]
+}
