@@ -2,8 +2,9 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Plus, X, Columns3, ChevronRight } from 'lucide-react'
 import {
-  universities, getUniversity, tier, country, fmtL, primaryDeadline, daysUntil, fmtDate,
+  country, fmtL, primaryDeadline, daysUntil, fmtDate,
 } from '../data/store'
+import { useData } from '../data/DataContext'
 import { PageHeader, TierBadge, Flag } from '../components/ui'
 
 const ROWS = [
@@ -36,6 +37,7 @@ function Money({ v, bold }) {
 }
 
 export default function Compare() {
+  const { universities, getUniversity } = useData()
   const [selected, setSelected] = useState(['yale-university', 'university-of-michigan', 'ashoka-university'])
   const [picker, setPicker] = useState(false)
 

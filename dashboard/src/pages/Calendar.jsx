@@ -1,7 +1,8 @@
 import { useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { CalendarDays, GraduationCap, Banknote, BadgeCheck, AlertTriangle } from 'lucide-react'
-import { deadlineEvents, daysUntil, tier, country, fmtDate } from '../data/store'
+import { daysUntil, fmtDate } from '../data/store'
+import { useData } from '../data/DataContext'
 import { PageHeader, Flag, TierBadge } from '../components/ui'
 
 const KINDS = {
@@ -11,6 +12,7 @@ const KINDS = {
 }
 
 export default function Calendar() {
+  const { deadlineEvents } = useData()
   const [kinds, setKinds] = useState({ deadline: true, scholarship: true, decision: true })
   const today = new Date()
 

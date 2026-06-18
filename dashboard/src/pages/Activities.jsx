@@ -1,8 +1,9 @@
 import { Award, Trophy, Briefcase, Sparkles, Target } from 'lucide-react'
-import { activities, honors } from '../data/store'
+import { useData } from '../data/DataContext'
 import { PageHeader } from '../components/ui'
 
 export default function Activities() {
+  const { activities, honors } = useData()
   return (
     <div className="animate-fadeUp">
       <PageHeader title="Activities & Honors" subtitle={`${activities.length} activities · ${honors.length} honors — Common App allows 10 activities + 5 honors`} />

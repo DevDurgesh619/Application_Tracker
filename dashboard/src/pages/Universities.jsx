@@ -2,14 +2,16 @@ import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Search, ChevronRight, CalendarClock, Wallet, MapPin } from 'lucide-react'
 import {
-  universities, tier, country, TIERS, COUNTRY, fmtL,
+  tier, country, TIERS, COUNTRY, fmtL,
   primaryDeadline, daysUntil, fmtDate,
 } from '../data/store'
+import { useData } from '../data/DataContext'
 import { PageHeader, TierBadge, StatusBadge, Flag } from '../components/ui'
 
 const TIER_ORDER = Object.keys(TIERS)
 
 export default function Universities() {
+  const { universities } = useData()
   const [q, setQ] = useState('')
   const [tierF, setTierF] = useState('All')
   const [countryF, setCountryF] = useState('All')

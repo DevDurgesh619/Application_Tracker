@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom'
 import {
   ShieldCheck, ExternalLink, ArrowRight, AlertTriangle, Search,
 } from 'lucide-react'
-import { audit, VERDICTS, verdictBucket, auditSummary, bigErrors, getUniversity } from '../data/store'
+import { VERDICTS, verdictBucket } from '../data/store'
+import { useData } from '../data/DataContext'
 import { PageHeader, Flag } from '../components/ui'
 
 function sourceHost(url) {
@@ -15,6 +16,7 @@ function sourceHost(url) {
 }
 
 export default function Verification() {
+  const { audit, auditSummary, bigErrors, getUniversity } = useData()
   const [bucket, setBucket] = useState('all')
   const [q, setQ] = useState('')
   const summary = auditSummary()

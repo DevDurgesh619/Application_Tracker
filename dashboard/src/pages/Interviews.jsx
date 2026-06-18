@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Mic, Video, Users, Calendar, ChevronRight, AlertCircle } from 'lucide-react'
-import { interviews, getUniversity } from '../data/store'
+import { useData } from '../data/DataContext'
 import { PageHeader, Flag, TierBadge, StatusBadge } from '../components/ui'
 
 function formatIcon(fmt) {
@@ -11,6 +11,7 @@ function formatIcon(fmt) {
 }
 
 export default function Interviews() {
+  const { interviews } = useData()
   const required = interviews.filter((iv) => /required/i.test(iv.notes || '') || /required/i.test(iv.format || ''))
   const optional = interviews.filter((iv) => !required.includes(iv))
 

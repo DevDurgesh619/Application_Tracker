@@ -1,10 +1,11 @@
 import { useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { PenLine, FileText, ExternalLink, Layers } from 'lucide-react'
-import { essays, essayUniIds, getUniversity, universities } from '../data/store'
+import { useData } from '../data/DataContext'
 import { PageHeader, StatusBadge, Flag, Bar } from '../components/ui'
 
 export default function Essays() {
+  const { essays, essayUniIds, getUniversity } = useData()
   const [scope, setScope] = useState('All')
 
   // group scopes for filter chips

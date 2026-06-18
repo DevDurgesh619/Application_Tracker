@@ -4,11 +4,8 @@ import {
   Link2, StickyNote, ExternalLink, FileText, BadgeCheck,
   TestTube, Banknote, AlertTriangle, ShieldCheck,
 } from 'lucide-react'
-import {
-  getUniversity, universities, essaysForUniversity, interviewsForUniversity,
-  auditForUniversity,
-  tier, country, fmtL, primaryDeadline, daysUntil,
-} from '../data/store'
+import { tier, country, fmtL, primaryDeadline, daysUntil } from '../data/store'
+import { useData } from '../data/DataContext'
 import { TierBadge, StatusBadge, SectionCard, Field, Flag, Empty } from '../components/ui'
 import { AuditRow } from './Verification'
 
@@ -41,6 +38,7 @@ const ML = ({ text }) =>
 export default function UniversityDetail() {
   const { id } = useParams()
   const navigate = useNavigate()
+  const { getUniversity, universities, essaysForUniversity, interviewsForUniversity, auditForUniversity } = useData()
   const u = getUniversity(id)
   if (!u) return <div className="card p-8 text-center text-ink-500">University not found.</div>
 

@@ -4,12 +4,14 @@ import {
   ResponsiveContainer, BarChart, Bar as RBar, XAxis, YAxis, Tooltip, CartesianGrid, Cell, Legend,
 } from 'recharts'
 import { Wallet, TrendingDown, Banknote, Info } from 'lucide-react'
-import { universities, tier, country, fmtL } from '../data/store'
+import { tier, country, fmtL } from '../data/store'
+import { useData } from '../data/DataContext'
 import { PageHeader, Flag, TierBadge } from '../components/ui'
 
 const tipStyle = { borderRadius: 12, border: '1px solid #eceef2', boxShadow: '0 4px 16px rgba(16,24,40,0.08)', fontSize: 12 }
 
 export default function CostAnalysis() {
+  const { universities } = useData()
   const [sort, setSort] = useState('total') // total | best | fouryear
 
   const withCost = universities.filter((u) => u.cost.total)

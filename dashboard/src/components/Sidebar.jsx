@@ -1,9 +1,10 @@
 import { NavLink } from 'react-router-dom'
 import {
   LayoutDashboard, GraduationCap, PenLine, Mic, Wallet,
-  Award, CalendarDays, Columns3, Sparkles, ShieldCheck,
+  Award, CalendarDays, Columns3, Sparkles, ShieldCheck, LogOut,
 } from 'lucide-react'
-import { student, universities } from '../data/store'
+import { useData } from '../data/DataContext'
+import { useAuth } from '../auth/AuthContext'
 
 const NAV = [
   { to: '/', label: 'Overview', icon: LayoutDashboard, end: true },
@@ -18,6 +19,8 @@ const NAV = [
 ]
 
 export default function Sidebar() {
+  const { student, universities } = useData()
+  const { signOut } = useAuth()
   return (
     <aside className="fixed inset-y-0 left-0 z-20 flex w-64 flex-col border-r border-ink-100 bg-white">
       <div className="flex items-center gap-3 px-5 py-5">
@@ -64,6 +67,13 @@ export default function Sidebar() {
           <span className="font-bold text-white">{universities.length}</span> schools tracked
         </div>
       </div>
+
+      <button
+        onClick={signOut}
+        className="mx-3 mb-3 flex items-center gap-2 rounded-xl px-3 py-2 text-sm font-medium text-ink-400 transition-colors hover:bg-ink-50 hover:text-ink-700"
+      >
+        <LogOut size={16} /> Sign out
+      </button>
     </aside>
   )
 }

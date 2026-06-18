@@ -6,14 +6,15 @@ import {
 import {
   ResponsiveContainer, PieChart, Pie, Cell, BarChart, Bar as RBar, XAxis, YAxis, Tooltip, CartesianGrid,
 } from 'recharts'
-import {
-  universities, essays, interviews, activities, honors, student,
-  tier, TIERS, COUNTRY, fmtL, daysUntil, deadlineEvents,
-  audit, auditSummary,
-} from '../data/store'
+import { tier, TIERS, COUNTRY, fmtL, daysUntil } from '../data/store'
+import { useData } from '../data/DataContext'
 import { StatCard, TierBadge, Flag, SectionCard } from '../components/ui'
 
 export default function Overview() {
+  const {
+    universities, essays, interviews, activities, honors, student,
+    deadlineEvents, audit, auditSummary,
+  } = useData()
   const tierCounts = Object.keys(TIERS).map((t) => ({
     name: t, value: universities.filter((u) => u.tier === t).length, color: tier(t).hex,
   }))
