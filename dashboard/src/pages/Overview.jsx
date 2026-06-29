@@ -1,12 +1,14 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import {
   GraduationCap, CalendarClock, Wallet, PenLine, Mic, Trophy,
   Target, TrendingUp, ArrowUpRight, ShieldCheck, AlertTriangle,
+  Pencil, Check, X, Loader2,
 } from 'lucide-react'
 import {
   ResponsiveContainer, PieChart, Pie, Cell, BarChart, Bar as RBar, XAxis, YAxis, Tooltip, CartesianGrid,
 } from 'recharts'
-import { tier, TIERS, COUNTRY, fmtL, daysUntil } from '../data/store'
+import { tier, TIERS, COUNTRY, fmtMoney, daysUntil } from '../data/store'
 import { useData } from '../data/DataContext'
 import { StatCard, TierBadge, Flag, SectionCard } from '../components/ui'
 
@@ -25,8 +27,8 @@ export default function Overview() {
   const essaysDone = essays.filter((e) => /complete|done|submitted/i.test(e.status)).length
   const interviewsReq = interviews.length
 
-  const cheapest = [...universities].filter((u) => u.cost.total).sort((a, b) => a.cost.total - b.cost.total)[0]
-  const priciest = [...universities].filter((u) => u.cost.total).sort((a, b) => b.cost.total - a.cost.total)[0]
+  const cheapest = [...universities].filter((u) => u.cost.usd?.total != null).sort((a, b) => a.cost.usd.total - b.cost.usd.total)[0]
+  const priciest = [...universities].filter((u) => u.cost.usd?.total != null).sort((a, b) => b.cost.usd.total - a.cost.usd.total)[0]
 
   // upcoming deadlines
   const today = new Date()
@@ -37,9 +39,9 @@ export default function Overview() {
 
   // cost by country (avg total)
   const costByCountry = countryCounts.map((c) => {
-    const us = universities.filter((u) => u.country === c.name && u.cost.total)
-    const avg = us.reduce((s, u) => s + u.cost.total, 0) / (us.length || 1)
-    return { name: `${c.flag} ${c.name}`, avg: Math.round(avg * 10) / 10 }
+    const us = universities.filter((u) => u.country === c.name && u.cost.usd?.total != null)
+    const avg = us.reduce((s, u) => s + u.cost.usd.total, 0) / (us.length || 1)
+    return { name: `${c.flag} ${c.name}`, avg: Math.round(avg) }
   }).sort((a, b) => b.avg - a.avg)
 
   return (
@@ -51,6 +53,7 @@ export default function Overview() {
             <div className="text-sm font-semibold uppercase tracking-wider text-brand-200">College Application Tracker</div>
             <h1 className="mt-1 text-3xl font-extrabold tracking-tight">{student.name}</h1>
             <p className="mt-1 text-brand-100">{student.profile} · Class of {student.classOf}</p>
+            <SatEditor student={student} />
           </div>
           <div className="flex gap-6">
             {tierCounts.map((t) => (
@@ -62,6 +65,27 @@ export default function Overview() {
           </div>
         </div>
       </div>
+
+      {/* closest deadline — the one thing not to miss */}
+      {upcoming[0] && (() => {
+        const n = upcoming[0]
+        const days = daysUntil(n.date, today)
+        return (
+          <Link to={`/university/${n.uni.id}`}
+            className="mb-6 flex items-center gap-4 rounded-2xl bg-gradient-to-r from-rose-600 to-rose-500 px-5 py-4 text-white shadow-lift transition hover:brightness-105">
+            <div className="grid h-12 w-12 shrink-0 place-items-center rounded-xl bg-white/15"><CalendarClock size={24} /></div>
+            <div className="min-w-0 flex-1">
+              <div className="text-[11px] font-semibold uppercase tracking-wider text-rose-100">Next deadline</div>
+              <div className="truncate text-lg font-bold">{COUNTRY[n.uni.country]?.flag} {n.uni.name}</div>
+              <div className="truncate text-sm text-rose-100">{n.date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })} · {n.label}</div>
+            </div>
+            <div className="shrink-0 text-right">
+              <div className="text-3xl font-extrabold leading-none">{days}<span className="text-base font-semibold"> days</span></div>
+              <div className="text-xs text-rose-100">{days <= 30 ? 'closing soon' : 'to go'}</div>
+            </div>
+          </Link>
+        )
+      })()}
 
       {/* stat cards */}
       <div className="mb-6 grid grid-cols-2 gap-4 lg:grid-cols-4">
@@ -151,14 +175,14 @@ export default function Overview() {
       <div className="mt-6 grid grid-cols-1 gap-6 lg:grid-cols-3">
         {/* avg cost by country */}
         <div className="lg:col-span-2">
-          <SectionCard icon={Wallet} title="Average Annual Cost by Country (₹ Lakh)" accent="emerald" action={<Link to="/cost" className="text-xs font-semibold text-brand-600 hover:underline">Cost analysis →</Link>}>
+          <SectionCard icon={Wallet} title="Average Annual Cost by Country (USD)" accent="emerald" action={<Link to="/cost" className="text-xs font-semibold text-brand-600 hover:underline">Cost analysis →</Link>}>
             <div className="h-56">
               <ResponsiveContainer width="100%" height="100%">
                 <BarChart data={costByCountry} layout="vertical" margin={{ left: 8, right: 16 }}>
                   <CartesianGrid horizontal={false} stroke="#eceef2" />
-                  <XAxis type="number" tick={{ fontSize: 12, fill: '#828ea3' }} axisLine={false} tickLine={false} />
+                  <XAxis type="number" tick={{ fontSize: 12, fill: '#828ea3' }} axisLine={false} tickLine={false} tickFormatter={(v) => `$${(v / 1000).toFixed(0)}k`} />
                   <YAxis type="category" dataKey="name" width={92} tick={{ fontSize: 12, fill: '#40495a' }} axisLine={false} tickLine={false} />
-                  <Tooltip contentStyle={tipStyle} formatter={(v) => [`₹${v}L`, 'Avg total/yr']} cursor={{ fill: '#f6f7f9' }} />
+                  <Tooltip contentStyle={tipStyle} formatter={(v) => [fmtMoney(v, 'USD'), 'Avg total/yr']} cursor={{ fill: '#f6f7f9' }} />
                   <RBar dataKey="avg" fill="#3563f0" radius={[0, 6, 6, 0]} barSize={22} />
                 </BarChart>
               </ResponsiveContainer>
@@ -177,6 +201,94 @@ export default function Overview() {
 }
 
 const tipStyle = { borderRadius: 12, border: '1px solid #eceef2', boxShadow: '0 4px 16px rgba(16,24,40,0.08)', fontSize: 12 }
+
+/* Student-level SAT editor (the one place the score is set; every
+ * university's SAT gap/status recomputes from it). Persists + logs. */
+function SatEditor({ student }) {
+  const { editStudent } = useData()
+  const [editing, setEditing] = useState(false)
+  const [score, setScore] = useState(student.satScore ?? '')
+  const [estimated, setEstimated] = useState(!!student.satEstimated)
+  const [saving, setSaving] = useState(false)
+  const [error, setError] = useState(null)
+
+  function open() {
+    setScore(student.satScore ?? '')
+    setEstimated(!!student.satEstimated)
+    setError(null)
+    setEditing(true)
+  }
+
+  async function save() {
+    setSaving(true)
+    setError(null)
+    try {
+      await editStudent({ satScore: score, satEstimated: estimated })
+      setEditing(false)
+    } catch (e) {
+      setError(e?.message || 'Save failed')
+    } finally {
+      setSaving(false)
+    }
+  }
+
+  if (!editing) {
+    return (
+      <button
+        onClick={open}
+        className="group mt-2.5 inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-sm font-semibold text-white transition hover:bg-white/20"
+        title="Edit SAT score"
+      >
+        SAT {student.satScore ?? '—'}
+        {student.satEstimated && (
+          <span className="rounded bg-amber-300/90 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wide text-amber-900">Est.</span>
+        )}
+        <Pencil size={12} className="text-white/60 group-hover:text-white" />
+      </button>
+    )
+  }
+
+  return (
+    <div className="mt-2.5 inline-flex flex-col gap-2 rounded-xl bg-white/10 p-3 text-white">
+      <div className="flex items-center gap-2">
+        <input
+          type="number"
+          min={400}
+          max={1600}
+          autoFocus
+          value={score}
+          onChange={(e) => setScore(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter') save()
+            if (e.key === 'Escape') setEditing(false)
+          }}
+          className="w-24 rounded-lg border border-white/30 bg-white/95 px-2.5 py-1 text-sm font-semibold text-ink-900 outline-none focus:ring-2 focus:ring-white/50"
+        />
+        <label className="flex cursor-pointer items-center gap-1.5 text-xs font-medium text-brand-100">
+          <input type="checkbox" checked={estimated} onChange={(e) => setEstimated(e.target.checked)} className="accent-amber-400" />
+          Estimated
+        </label>
+      </div>
+      {error && <div className="rounded bg-rose-500/90 px-2 py-1 text-xs font-medium text-white">{error}</div>}
+      <div className="flex items-center gap-1.5">
+        <button
+          onClick={save}
+          disabled={saving}
+          className="inline-flex items-center gap-1 rounded-md bg-white px-2 py-1 text-xs font-bold text-brand-700 transition hover:bg-brand-50 disabled:opacity-60"
+        >
+          {saving ? <Loader2 size={11} className="animate-spin" /> : <Check size={11} />} Save
+        </button>
+        <button
+          onClick={() => setEditing(false)}
+          disabled={saving}
+          className="inline-flex items-center gap-1 rounded-md px-2 py-1 text-xs font-medium text-brand-100 transition hover:bg-white/10"
+        >
+          <X size={11} /> Cancel
+        </button>
+      </div>
+    </div>
+  )
+}
 
 function VStat({ n, label, tone, icon: Icon }) {
   return (
@@ -201,8 +313,8 @@ function CostExtreme({ label, u, accent, icon: Icon }) {
       <div className="mt-2 flex items-center gap-2 text-sm font-bold text-ink-900">
         <Flag country={u.country} /> {u.name}
       </div>
-      <div className="mt-1 text-2xl font-extrabold text-ink-900">{fmtL(u.cost.total)}<span className="text-sm font-medium text-ink-400">/yr</span></div>
-      <div className="text-xs text-ink-500">4-yr total {fmtL(u.cost.fourYear)}</div>
+      <div className="mt-1 text-2xl font-extrabold text-ink-900">{fmtMoney(u.cost.usd?.total, 'USD')}<span className="text-sm font-medium text-ink-400">/yr</span></div>
+      <div className="text-xs text-ink-500">4-yr total {fmtMoney(u.cost.usd?.fourYear, 'USD')}</div>
     </Link>
   )
 }

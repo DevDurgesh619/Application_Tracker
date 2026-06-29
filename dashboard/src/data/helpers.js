@@ -22,9 +22,14 @@ export const tier = (t) => TIERS[t] || { label: t, order: 9, text: 'text-ink-600
 /* ---- country config ---- */
 export const COUNTRY = {
   USA: { flag: '🇺🇸', label: 'United States' },
+  UK: { flag: '🇬🇧', label: 'United Kingdom' },
   Singapore: { flag: '🇸🇬', label: 'Singapore' },
   Australia: { flag: '🇦🇺', label: 'Australia' },
   India: { flag: '🇮🇳', label: 'India' },
+  France: { flag: '🇫🇷', label: 'France' },
+  Canada: { flag: '🇨🇦', label: 'Canada' },
+  Germany: { flag: '🇩🇪', label: 'Germany' },
+  Netherlands: { flag: '🇳🇱', label: 'Netherlands' },
 }
 export const country = (c) => COUNTRY[c] || { flag: '🏳️', label: c }
 
@@ -81,7 +86,7 @@ export function parseDate(text) {
   return null
 }
 
-export const isApprox = (text) => /~|early|opens|rolling|confirm|tbc|tbd|apply asap|offers/i.test(String(text || ''))
+export const isApprox = (text) => /~|early|opens|rolling|confirm|tbc|tbd|apply asap|offers|expected|projected/i.test(String(text || ''))
 
 /** an intake/term/semester START date — not an application deadline */
 export const isIntakeNote = (text) => /intake|semester|\bsem\b|\bterm\s*\d/i.test(String(text || ''))
@@ -104,6 +109,29 @@ export function daysUntil(date, from = new Date()) {
  *  Formatting helpers
  * ------------------------------------------------------------------ */
 export const fmtL = (n) => (n === null || n === undefined ? '—' : `₹${n.toLocaleString('en-IN', { maximumFractionDigits: 1 })}L`)
+
+/* FX → USD (indicative; INR rate matches the sheet's $1=₹84 so ₹L figures
+ * convert back consistently). Used to show the cost comparison pages in USD. */
+export const INR_PER_USD = 84
+export const FX_TO_USD = { USD: 1, AUD: 0.66, SGD: 0.74, GBP: 1.27, EUR: 1.08, INR: 1 / INR_PER_USD, NZD: 0.61, CAD: 0.73, HKD: 0.128 }
+export const toUSD = (amount, currency = 'USD') => {
+  const r = FX_TO_USD[currency]
+  const n = typeof amount === 'number' ? amount : Number(amount)
+  return amount == null || !Number.isFinite(n) || r == null ? null : n * r
+}
+/* a ₹-lakh figure (lakhs of INR) → USD */
+export const lakhToUSD = (lakhs) => (lakhs == null || !Number.isFinite(Number(lakhs)) ? null : Math.round(Number(lakhs) * 100000 / INR_PER_USD))
+
+/* Currency-aware money formatter for the verified (native-currency) catalog
+ * figures — USD/AUD/SGD all read as "dollars" with the right symbol. */
+const CURRENCY_SYMBOL = { USD: '$', AUD: 'A$', SGD: 'S$', GBP: '£', EUR: '€', INR: '₹', NZD: 'NZ$', CAD: 'C$', HKD: 'HK$' }
+export const fmtMoney = (n, currency = 'USD') => {
+  if (n === null || n === undefined || n === '') return '—'
+  const num = typeof n === 'number' ? n : Number(String(n).replace(/[^0-9.\-]/g, ''))
+  if (!Number.isFinite(num)) return '—'
+  const sym = CURRENCY_SYMBOL[currency] || (currency ? currency + ' ' : '$')
+  return `${sym}${num.toLocaleString('en-US', { maximumFractionDigits: 0 })}`
+}
 export const fmtDate = (d) =>
   d ? d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : '—'
 export const fmtDateShort = (d) => (d ? d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : '—')

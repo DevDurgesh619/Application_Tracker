@@ -15,10 +15,28 @@ npm-debug.log*
 .vscode/
 .idea/
 
-# env
+# env — secrets, never commit (matches any directory)
 .env
-.env.local
+.env.*
+!.env.example
 *.local
+
+# secrets / keys / certs
+*.pem
+*.key
+*.p12
+*-service-account*.json
+secrets.json
+
+# vercel link dir (project/org ids)
+.vercel/
 
 # source spreadsheet (personal data — app runs off generated master.json)
 *.xlsx
+
+# internal planning / strategy docs (not for the public repo)
+docs/
+SYSTEM_IMPROVEMENTS.md
+
+# firecrawl fetched content (untrusted web data — never commit)
+.firecrawl/

@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Search, ChevronRight, CalendarClock, Wallet, MapPin } from 'lucide-react'
 import {
-  tier, country, TIERS, COUNTRY, fmtL,
+  tier, country, TIERS, COUNTRY, fmtMoney,
   primaryDeadline, daysUntil, fmtDate,
 } from '../data/store'
 import { useData } from '../data/DataContext'
@@ -123,7 +123,7 @@ function UniCard({ u }) {
         </div>
         <div>
           <div className="label flex items-center gap-1"><Wallet size={11} /> Total / yr</div>
-          <div className="mt-0.5 text-sm font-semibold text-ink-800">{fmtL(u.cost.total)}</div>
+          <div className="mt-0.5 text-sm font-semibold text-ink-800">{fmtMoney(u.cost.usd?.total, 'USD')}</div>
           <div className="text-xs text-ink-400">{u.tests?.includes('Blind') ? 'Test-blind' : u.tests?.includes('Optional') ? 'Test-optional' : u.tests?.includes('Required') ? 'Test-required' : ''}</div>
         </div>
       </div>

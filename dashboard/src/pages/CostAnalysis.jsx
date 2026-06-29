@@ -4,9 +4,11 @@ import {
   ResponsiveContainer, BarChart, Bar as RBar, XAxis, YAxis, Tooltip, CartesianGrid, Cell, Legend,
 } from 'recharts'
 import { Wallet, TrendingDown, Banknote, Info } from 'lucide-react'
-import { tier, country, fmtL } from '../data/store'
+import { tier, country, fmtMoney } from '../data/store'
+
+const usd = (n) => fmtMoney(n, 'USD')
 import { useData } from '../data/DataContext'
-import { PageHeader, Flag, TierBadge } from '../components/ui'
+import { PageHeader, TierBadge } from '../components/ui'
 
 const tipStyle = { borderRadius: 12, border: '1px solid #eceef2', boxShadow: '0 4px 16px rgba(16,24,40,0.08)', fontSize: 12 }
 
@@ -14,32 +16,33 @@ export default function CostAnalysis() {
   const { universities } = useData()
   const [sort, setSort] = useState('total') // total | best | fouryear
 
-  const withCost = universities.filter((u) => u.cost.total)
-  const avg = withCost.reduce((s, u) => s + u.cost.total, 0) / withCost.length
+  const withCost = universities.filter((u) => u.cost.usd?.total != null)
+  const avg = withCost.reduce((s, u) => s + u.cost.usd.total, 0) / withCost.length
 
   const chartData = [...withCost]
     .sort((a, b) =>
-      sort === 'best' ? (a.cost.bestCase ?? a.cost.total) - (b.cost.bestCase ?? b.cost.total)
-      : sort === 'fouryear' ? a.cost.fourYear - b.cost.fourYear
-      : a.cost.total - b.cost.total
+      sort === 'best' ? (a.cost.usd.best ?? a.cost.usd.total) - (b.cost.usd.best ?? b.cost.usd.total)
+      : sort === 'fouryear' ? (a.cost.usd.fourYear ?? 0) - (b.cost.usd.fourYear ?? 0)
+      : a.cost.usd.total - b.cost.usd.total
     )
     .map((u) => ({
       id: u.id,
       name: u.name.length > 18 ? u.name.slice(0, 17) + '…' : u.name,
       full: u.name,
-      tuition: u.cost.tuition,
-      living: u.cost.living,
-      other: u.cost.other,
-      total: u.cost.total,
-      best: u.cost.bestCase,
-      fourYear: u.cost.fourYear,
+      tuition: u.cost.usd.tuition,
+      living: u.cost.usd.living,
+      other: u.cost.usd.other,
+      total: u.cost.usd.total,
+      best: u.cost.usd.best,
+      fourYear: u.cost.usd.fourYear,
+      verified: u.cost.usd.verified,
       flag: country(u.country).flag,
       hex: tier(u.tier).hex,
     }))
 
   return (
     <div className="animate-fadeUp">
-      <PageHeader title="Cost Analysis" subtitle="All figures in ₹ Lakh/yr · rates: $1=₹84 · A$1=₹55 · S$1=₹63">
+      <PageHeader title="Cost Analysis" subtitle="USD per year · verified official figures where available, otherwise indicative estimate">
         <div className="flex items-center gap-1 rounded-xl border border-ink-200 bg-white p-1">
           {[['total', 'Total/yr'], ['best', 'Best-case'], ['fouryear', '4-year']].map(([k, l]) => (
             <button key={k} onClick={() => setSort(k)}
@@ -52,10 +55,10 @@ export default function CostAnalysis() {
 
       {/* summary cards */}
       <div className="mb-6 grid grid-cols-2 gap-4 lg:grid-cols-4">
-        <SummaryCard label="Average total / yr" value={fmtL(Math.round(avg * 10) / 10)} icon={Wallet} accent="brand" />
-        <SummaryCard label="Most affordable" value={fmtL(chartData[0]?.total)} sub={chartData[0]?.full} icon={TrendingDown} accent="emerald" />
-        <SummaryCard label="Cheapest 4-yr" value={fmtL(Math.min(...withCost.map((u) => u.cost.fourYear)))} icon={Banknote} accent="emerald" />
-        <SummaryCard label="Priciest 4-yr" value={fmtL(Math.max(...withCost.map((u) => u.cost.fourYear)))} icon={Banknote} accent="rose" />
+        <SummaryCard label="Average total / yr" value={usd(Math.round(avg))} icon={Wallet} accent="brand" />
+        <SummaryCard label="Most affordable" value={usd(chartData[0]?.total)} sub={chartData[0]?.full} icon={TrendingDown} accent="emerald" />
+        <SummaryCard label="Cheapest 4-yr" value={usd(Math.min(...withCost.map((u) => u.cost.usd.fourYear).filter((x) => x != null)))} icon={Banknote} accent="emerald" />
+        <SummaryCard label="Priciest 4-yr" value={usd(Math.max(...withCost.map((u) => u.cost.usd.fourYear).filter((x) => x != null)))} icon={Banknote} accent="rose" />
       </div>
 
       {/* stacked bar chart */}
@@ -68,9 +71,9 @@ export default function CostAnalysis() {
           <ResponsiveContainer width="100%" height="100%">
             <BarChart data={chartData} layout="vertical" margin={{ left: 10, right: 24 }}>
               <CartesianGrid horizontal={false} stroke="#eceef2" />
-              <XAxis type="number" tick={{ fontSize: 11, fill: '#828ea3' }} axisLine={false} tickLine={false} unit="L" />
+              <XAxis type="number" tick={{ fontSize: 11, fill: '#828ea3' }} axisLine={false} tickLine={false} tickFormatter={(v) => `$${(v / 1000).toFixed(0)}k`} />
               <YAxis type="category" dataKey="name" width={120} tick={{ fontSize: 11, fill: '#40495a' }} axisLine={false} tickLine={false} />
-              <Tooltip contentStyle={tipStyle} cursor={{ fill: '#f6f7f9' }} formatter={(v, n) => [`₹${v}L`, n]} labelFormatter={(l, p) => p?.[0]?.payload?.full || l} />
+              <Tooltip contentStyle={tipStyle} cursor={{ fill: '#f6f7f9' }} formatter={(v, n) => [usd(v), n]} labelFormatter={(l, p) => p?.[0]?.payload?.full || l} />
               {sort === 'total' ? (
                 <>
                   <Legend wrapperStyle={{ fontSize: 12 }} />
@@ -114,12 +117,14 @@ export default function CostAnalysis() {
                     </Link>
                   </td>
                   <td className="px-3 py-3"><TierBadge tier={u.tier} /></td>
-                  <td className="px-3 py-3 text-right tabular-nums text-ink-600">{fmtL(d.tuition)}</td>
-                  <td className="px-3 py-3 text-right tabular-nums text-ink-600">{fmtL(d.living)}</td>
-                  <td className="px-3 py-3 text-right tabular-nums text-ink-600">{fmtL(d.other)}</td>
-                  <td className="px-3 py-3 text-right font-bold tabular-nums text-ink-900">{fmtL(d.total)}</td>
-                  <td className="px-3 py-3 text-right tabular-nums text-emerald-600">{d.best != null ? fmtL(d.best) : '—'}</td>
-                  <td className="px-5 py-3 text-right font-semibold tabular-nums text-ink-800">{fmtL(d.fourYear)}</td>
+                  <td className="px-3 py-3 text-right tabular-nums text-ink-600">{usd(d.tuition)}</td>
+                  <td className="px-3 py-3 text-right tabular-nums text-ink-600">{usd(d.living)}</td>
+                  <td className="px-3 py-3 text-right tabular-nums text-ink-600">{usd(d.other)}</td>
+                  <td className="px-3 py-3 text-right font-bold tabular-nums text-ink-900">
+                    <span className="inline-flex items-center gap-1">{d.verified && <span title="verified official figure" className="text-emerald-500">✓</span>}{usd(d.total)}</span>
+                  </td>
+                  <td className="px-3 py-3 text-right tabular-nums text-emerald-600">{d.best != null ? usd(d.best) : '—'}</td>
+                  <td className="px-5 py-3 text-right font-semibold tabular-nums text-ink-800">{usd(d.fourYear)}</td>
                 </tr>
               )
             })}
@@ -129,7 +134,7 @@ export default function CostAnalysis() {
 
       <div className="mt-4 flex items-start gap-2 rounded-xl bg-amber-50 px-4 py-3 text-xs text-amber-800">
         <Info size={15} className="mt-0.5 shrink-0" />
-        Singapore "best-case" assumes the MOE Tuition Grant (3-year SG work bond). Yale is need-blind — best-case can fall near ₹0 tuition if full need is demonstrated. Australian fees reflect international BCom rates.
+        A ✓ marks a verified official tuition/total; other figures are indicative estimates converted to USD. Singapore "best-case" assumes the MOE Tuition Grant (3-year SG work bond); Yale is need-blind so best-case can fall near $0 tuition with full demonstrated need.
       </div>
     </div>
   )

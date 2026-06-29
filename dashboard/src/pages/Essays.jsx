@@ -80,7 +80,9 @@ export default function Essays() {
                     <div className="flex items-start gap-2">
                       <FileText size={15} className="mt-0.5 shrink-0 text-ink-400" />
                       <div>
-                        <div className="font-semibold text-ink-800">{e.prompt}</div>
+                        {e.dbId
+                          ? <Link to={`/essay/${e.dbId}`} className="font-semibold text-ink-800 hover:text-brand-700 hover:underline">{e.prompt}</Link>
+                          : <div className="font-semibold text-ink-800">{e.prompt}</div>}
                         <div className="mt-0.5 text-xs font-medium text-brand-600">{e.scope}</div>
                         {e.themes && <p className="mt-1 max-w-md text-xs text-ink-500">{e.themes}</p>}
                         {e.notes && (

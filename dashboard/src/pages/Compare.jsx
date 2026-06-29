@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Plus, X, Columns3, ChevronRight } from 'lucide-react'
 import {
-  country, fmtL, primaryDeadline, daysUntil, fmtDate,
+  country, fmtMoney, primaryDeadline, daysUntil, fmtDate,
 } from '../data/store'
 import { useData } from '../data/DataContext'
 import { PageHeader, TierBadge, Flag } from '../components/ui'
@@ -20,10 +20,10 @@ const ROWS = [
   { key: 'interview', label: 'Interview', render: (u) => <span className="text-sm">{u.interview}</span> },
   { key: 'aid', label: 'Aid policy', render: (u) => <span className="text-sm">{u.aidPolicy}</span> },
   { key: 'scholarship', label: 'Scholarship', render: (u) => <span className="text-sm">{u.scholarship}</span> },
-  { key: 'tuition', label: 'Tuition / yr', render: (u) => <Money v={u.cost.tuition} all={(c) => c.tuition} u={u} /> },
-  { key: 'total', label: 'Total / yr', render: (u) => <Money v={u.cost.total} bold all={(c) => c.total} u={u} /> },
-  { key: 'best', label: 'Best-case / yr', render: (u) => <span className="text-sm font-medium text-emerald-600">{u.cost.bestCase != null ? fmtL(u.cost.bestCase) : '—'}</span> },
-  { key: 'fourYear', label: '4-year total', render: (u) => <Money v={u.cost.fourYear} all={(c) => c.fourYear} u={u} /> },
+  { key: 'tuition', label: 'Tuition / yr', render: (u) => <Money v={u.cost.usd?.tuition} /> },
+  { key: 'total', label: 'Total / yr', render: (u) => <Money v={u.cost.usd?.total} bold verified={u.cost.usd?.verified} /> },
+  { key: 'best', label: 'Best-case / yr', render: (u) => <span className="text-sm font-medium text-emerald-600">{u.cost.usd?.best != null ? fmtMoney(u.cost.usd.best, 'USD') : '—'}</span> },
+  { key: 'fourYear', label: '4-year total', render: (u) => <Money v={u.cost.usd?.fourYear} /> },
 ]
 
 function firstLine(s) { return String(s || '').split('\n')[0] }
@@ -32,8 +32,12 @@ function Yn({ v }) {
   const no = /no|❌/i.test(v || '')
   return <span className={`chip ${yes ? 'bg-emerald-50 text-emerald-700' : no ? 'bg-rose-50 text-rose-700' : 'bg-ink-100 text-ink-500'}`}>{v}</span>
 }
-function Money({ v, bold }) {
-  return <span className={`text-sm tabular-nums ${bold ? 'font-bold text-ink-900' : 'text-ink-700'}`}>{fmtL(v)}</span>
+function Money({ v, bold, verified }) {
+  return (
+    <span className={`inline-flex items-center gap-1 text-sm tabular-nums ${bold ? 'font-bold text-ink-900' : 'text-ink-700'}`}>
+      {verified && <span title="verified official figure" className="text-emerald-500">✓</span>}{fmtMoney(v, 'USD')}
+    </span>
+  )
 }
 
 export default function Compare() {

@@ -123,7 +123,10 @@ export default function Calendar() {
 
       {undated.length > 0 && (
         <div className="mt-6">
-          <h2 className="mb-3 text-sm font-bold uppercase tracking-wider text-ink-500">Rolling / To Be Confirmed</h2>
+          <h2 className="mb-1 text-sm font-bold uppercase tracking-wider text-ink-500">Dates not yet announced</h2>
+          <p className="mb-3 max-w-2xl text-xs text-ink-400">
+            These schools haven’t published their next-cycle deadline yet (most open in autumn 2026). We show them here instead of guessing a date — exact deadlines appear above automatically once each school posts them.
+          </p>
           <div className="grid grid-cols-1 gap-2.5 sm:grid-cols-2">
             {undated.map((e, i) => (
               <Link key={i} to={`/university/${e.uni.id}`} className="flex items-center gap-3 rounded-2xl border border-dashed border-ink-200 bg-white p-4 hover:border-brand-300">

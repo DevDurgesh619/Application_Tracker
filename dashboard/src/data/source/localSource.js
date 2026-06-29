@@ -7,7 +7,7 @@ import master from '../master.json'
  *  that returns the same shape — nothing else in the app changes.
  * ------------------------------------------------------------------ */
 
-export async function loadRawData() {
-  // simulate async so the whole app is already wired for a real backend
+export async function loadRawData(_studentId) {
+  // bundled JSON is single-student; the id is accepted for API parity (ignored)
   return Promise.resolve(master)
 }
