@@ -34,6 +34,11 @@ export function AuthProvider({ children }) {
     role,
     isCurator: role === 'curator' || role === 'admin',
     signIn: (email, password) => supabase.auth.signInWithPassword({ email, password }),
+    // passwordless: emails a one-click sign-in link; existing counsellors only
+    sendMagicLink: (email) => supabase.auth.signInWithOtp({
+      email,
+      options: { shouldCreateUser: false, emailRedirectTo: window.location.origin },
+    }),
     signOut: () => supabase.auth.signOut(),
   }
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>
